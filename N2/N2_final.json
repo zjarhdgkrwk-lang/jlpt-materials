@@ -1,0 +1,4131 @@
+{
+  "level": "N2",
+  "dataset_type": "study_material_generation_input",
+  "policy_note": "N5~N3를 학습한 사용자가 이어서 N2를 깊게 학습하기 위한 입력 데이터. 하위 단계 기초 반복은 피하고, N2의 문어성·추상성·논리 전개·제약 중심으로 구성한다.",
+  "macro_categories": [
+    {
+      "id": "MC01",
+      "name": "공식 시점과 변화의 진행",
+      "definition": "공식 시점, 계기, 동반 변화, 즉시성, 장기 지속, 급변을 나타내는 표현"
+    },
+    {
+      "id": "MC02",
+      "name": "원인·결과·경위",
+      "definition": "필연적 이유, 변명, 후회, 감탄, 보람, 경위 보고를 포함한 인과 표현"
+    },
+    {
+      "id": "MC03",
+      "name": "양보·모순·역접",
+      "definition": "사실 인정 후 논지를 꺾거나, 모순·대조·반론을 나타내는 표현"
+    },
+    {
+      "id": "MC04",
+      "name": "판단·확신·축소·한계",
+      "definition": "강한 확신, 축소 단정, 가능성 한계, 비유, 정황 판단 표현"
+    },
+    {
+      "id": "MC05",
+      "name": "관점·기준·범위 설정",
+      "definition": "판단의 관점, 기준, 근거, 적용 범위, 장면 설정 표현"
+    },
+    {
+      "id": "MC06",
+      "name": "범위·예외·무관 조건",
+      "definition": "예외, 범위 확장, 불문 조건, 한정·비한정 표현"
+    },
+    {
+      "id": "MC07",
+      "name": "가정·필수 조건·양보 가정",
+      "definition": "필수 전제, 비현실 가정, 경고성 가정, 양보 가정 표현"
+    },
+    {
+      "id": "MC08",
+      "name": "제약·강제·회피·불가피",
+      "definition": "불가항력, 완곡 거절, 부정적 가능성, 회피, 면제, 의무 표현"
+    },
+    {
+      "id": "MC09",
+      "name": "감정·상태 변화·완수",
+      "definition": "극한 감정, 상태 치우침, 일방 변화, 극복과 완수 표현"
+    },
+    {
+      "id": "MC10",
+      "name": "나열·추가·대비",
+      "definition": "복잡한 나열, 추가 확장, 대비, 부가 행동 표현"
+    },
+    {
+      "id": "MC11",
+      "name": "문어체·공적 표현",
+      "definition": "고어 잔재, 공적 담화, 공문·안내문의 격식 높은 표현"
+    },
+    {
+      "id": "MC12",
+      "name": "부사·접속·담화 연결",
+      "definition": "부사적 표현, 접속사, 담화 전개 표현"
+    }
+  ],
+  "main_entries": [
+    {
+      "id": "M001",
+      "canonical_name": "～に際して / ～に際し",
+      "aliases": [
+        "~에 즈음하여"
+      ],
+      "unit_type": "family",
+      "macro_category": "공식 시점과 변화의 진행",
+      "core_meaning": [
+        "공식적 시점에 맞추어"
+      ],
+      "function_tag": [
+        "시점",
+        "공식"
+      ],
+      "formation": "명사/동사 사전형 + に際して/に際し",
+      "base_form_dependency": [
+        "noun",
+        "dictionary-form"
+      ],
+      "compare_with": [
+        "～にあたって / ～にあたり"
+      ],
+      "register": "written",
+      "notes": [
+        "にあたって보다 시점 자체의 무게가 더 크다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M002",
+      "canonical_name": "～にあたって / ～にあたり",
+      "aliases": [
+        "~함에 있어서"
+      ],
+      "unit_type": "family",
+      "macro_category": "공식 시점과 변화의 진행",
+      "core_meaning": [
+        "시작에 맞춘 준비·다짐"
+      ],
+      "function_tag": [
+        "시점",
+        "준비"
+      ],
+      "formation": "명사/동사 사전형 + にあたって/にあたり",
+      "base_form_dependency": [
+        "noun",
+        "dictionary-form"
+      ],
+      "compare_with": [
+        "～に際して / ～に際し"
+      ],
+      "register": "written",
+      "notes": [
+        "시점보다 준비·대비의 느낌이 더 강하다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M003",
+      "canonical_name": "～に先立って / ～に先立ち",
+      "aliases": [
+        "~에 앞서"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "공식 시점과 변화의 진행",
+      "core_meaning": [
+        "공식 행위보다 앞서 선행"
+      ],
+      "function_tag": [
+        "선행",
+        "사전"
+      ],
+      "formation": "명사 + に先立って/に先立ち",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "～に際して / ～に際し",
+        "～にあたって / ～にあたり"
+      ],
+      "register": "written",
+      "notes": [
+        "본행사 이전의 공식적 선행 조치를 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M004",
+      "canonical_name": "～つつ / ～つつある",
+      "aliases": [
+        "~하면서",
+        "점차 ~하고 있다"
+      ],
+      "unit_type": "family",
+      "macro_category": "공식 시점과 변화의 진행",
+      "core_meaning": [
+        "동시 진행(역접)",
+        "점진 변화"
+      ],
+      "function_tag": [
+        "동시",
+        "역접",
+        "진행"
+      ],
+      "formation": "동사 ます형 어간 + つつ/つつある",
+      "base_form_dependency": [
+        "masu-stem"
+      ],
+      "compare_with": [
+        "N3: ～ながら（も）"
+      ],
+      "register": "written",
+      "notes": [
+        "つつ는 문어적 동시·역접, つつある는 객관적 점진 변화를 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M005",
+      "canonical_name": "～か～ないかのうちに",
+      "aliases": [
+        "~하자마자"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "공식 시점과 변화의 진행",
+      "core_meaning": [
+        "동작 완료 직전의 즉시 발생"
+      ],
+      "function_tag": [
+        "즉시성",
+        "긴박감"
+      ],
+      "formation": "동사 사전형/た형 + か + ない형 + かのうちに",
+      "base_form_dependency": [
+        "dictionary-form",
+        "ta-form",
+        "nai-form"
+      ],
+      "compare_with": [
+        "次第",
+        "～かと思うと / ～かと思ったら"
+      ],
+      "register": "written",
+      "notes": [
+        "사건 사이 간격이 매우 짧다는 점이 핵심이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M006",
+      "canonical_name": "次第",
+      "aliases": [
+        "~하는 대로 곧"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "공식 시점과 변화의 진행",
+      "core_meaning": [
+        "선행 완료 즉시 대응"
+      ],
+      "function_tag": [
+        "즉시성",
+        "의지적 대응"
+      ],
+      "formation": "동사 ます형 어간 + 次第",
+      "base_form_dependency": [
+        "masu-stem"
+      ],
+      "compare_with": [
+        "～か～ないかのうちに"
+      ],
+      "register": "written",
+      "notes": [
+        "계획된 즉시 대응의 느낌이 강하다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M007",
+      "canonical_name": "次第だ / 次第で / 次第に",
+      "aliases": [
+        "~에 달려 있다",
+        "점차"
+      ],
+      "unit_type": "family",
+      "macro_category": "공식 시점과 변화의 진행",
+      "core_meaning": [
+        "결과 의존",
+        "점진"
+      ],
+      "function_tag": "~に+次第だ/次第で/次第に",
+      "formation": "명사 + 次第だ/次第で/次第に",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "次第"
+      ],
+      "register": "mixed",
+      "notes": [
+        "次第だ는 경위 보고, 次第で는 결과 의존, 次第に는 점차를 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M008",
+      "canonical_name": "～かと思うと / ～かと思ったら",
+      "aliases": [
+        "~하자마자",
+        "~인 줄 알았더니"
+      ],
+      "unit_type": "family",
+      "macro_category": "공식 시점과 변화의 진행",
+      "core_meaning": [
+        "급변",
+        "의외 전개"
+      ],
+      "function_tag": [
+        "급변",
+        "즉시성"
+      ],
+      "formation": "보통형 + かと思うと/かと思ったら",
+      "base_form_dependency": [
+        "plain-form"
+      ],
+      "compare_with": [
+        "～か～ないかのうちに"
+      ],
+      "register": "mixed",
+      "notes": [
+        "뒤 변화에 화자의 놀라움이 함께 제시된다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M009",
+      "canonical_name": "折に / 折には",
+      "aliases": [
+        "~할 때에",
+        "~기회에"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "공식 시점과 변화의 진행",
+      "core_meaning": [
+        "격식 있는 기회·시점"
+      ],
+      "function_tag": [
+        "시점",
+        "기회"
+      ],
+      "formation": "명사+の/동사 사전형·た형 + 折に",
+      "base_form_dependency": [
+        "noun",
+        "dictionary-form",
+        "ta-form"
+      ],
+      "compare_with": [
+        "～に際して / ～に際し"
+      ],
+      "register": "written",
+      "notes": [
+        "격식 있는 기회나 시점을 나타내는 문어 표현이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M010",
+      "canonical_name": "あげく / あげくの果てに",
+      "aliases": [
+        "~한 끝에, 결국"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "원인·결과·경위",
+      "core_meaning": [
+        "오랜 과정 끝 부정적 결과"
+      ],
+      "function_tag": [
+        "결말",
+        "후회"
+      ],
+      "formation": "동사 た형/명사+の + あげく",
+      "base_form_dependency": [
+        "ta-form",
+        "noun"
+      ],
+      "compare_with": [
+        "末に / 末の / た末"
+      ],
+      "register": "mixed",
+      "notes": [
+        "허무함이나 유감의 느낌이 따라온다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M011",
+      "canonical_name": "末に / 末の / た末",
+      "aliases": [
+        "~한 끝에"
+      ],
+      "unit_type": "family",
+      "macro_category": "원인·결과·경위",
+      "core_meaning": [
+        "긴 경과 끝 최종 결과"
+      ],
+      "function_tag": [
+        "결말",
+        "최종"
+      ],
+      "formation": "동사 た형/명사+の + 末に",
+      "base_form_dependency": [
+        "ta-form",
+        "noun"
+      ],
+      "compare_with": [
+        "あげく / あげくの果てに"
+      ],
+      "register": "mixed",
+      "notes": [
+        "좋은 결과와 나쁜 결과 모두 가능하다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M012",
+      "canonical_name": "からには / 以上(は) / 上は",
+      "aliases": [
+        "~한 이상"
+      ],
+      "unit_type": "family",
+      "macro_category": "원인·결과·경위",
+      "core_meaning": [
+        "전제에서 책임·의무 발생"
+      ],
+      "function_tag": [
+        "전제",
+        "의무"
+      ],
+      "formation": "보통형 + からには/以上(は)/上は",
+      "base_form_dependency": [
+        "plain-form"
+      ],
+      "compare_with": [
+        "～ねばならない / ～ねばならぬ"
+      ],
+      "register": "mixed",
+      "notes": [
+        "결심이나 사실을 전제로 책임감을 부과한다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M013",
+      "canonical_name": "～ことだし",
+      "aliases": [
+        "~이기도 하고"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "원인·결과·경위",
+      "core_meaning": [
+        "부드러운 판단 근거"
+      ],
+      "function_tag": [
+        "이유",
+        "완곡"
+      ],
+      "formation": "보통형 + ことだし",
+      "base_form_dependency": [
+        "plain-form"
+      ],
+      "compare_with": [
+        "からには / 以上(は) / 上は"
+      ],
+      "register": "spoken",
+      "notes": [
+        "가볍게 이유를 덧붙여 판단을 이끄는 느낌이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M014",
+      "canonical_name": "せいか",
+      "aliases": [
+        "~탓인지"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "원인·결과·경위",
+      "core_meaning": [
+        "불확실한 원인 추측"
+      ],
+      "function_tag": [
+        "원인",
+        "추측"
+      ],
+      "formation": "보통형 + せいか",
+      "base_form_dependency": [
+        "plain-form"
+      ],
+      "compare_with": [
+        "N3: ～せいで / ～せいだ"
+      ],
+      "register": "mixed",
+      "notes": [
+        "N3의 せいで(확정 원인)에서, 원인이 불확실한 추측으로 확장된다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M015",
+      "canonical_name": "かいがある / かいもなく",
+      "aliases": [
+        "보람이 있다",
+        "보람 없이"
+      ],
+      "unit_type": "family",
+      "macro_category": "원인·결과·경위",
+      "core_meaning": [
+        "노력의 보람 유무"
+      ],
+      "function_tag": [
+        "보람",
+        "결과 평가"
+      ],
+      "formation": "동사 た형/명사+の + かいがある/かいもなく",
+      "base_form_dependency": [
+        "ta-form",
+        "noun"
+      ],
+      "compare_with": [
+        "あげく / あげくの果てに"
+      ],
+      "register": "mixed",
+      "notes": [
+        "노력에 대한 결과 평가를 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M016",
+      "canonical_name": "ことか / ことだろう",
+      "aliases": [
+        "얼마나 ~일까"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "원인·결과·경위",
+      "core_meaning": [
+        "감탄·강조"
+      ],
+      "function_tag": [
+        "감탄",
+        "강조"
+      ],
+      "formation": "보통형 + ことか/ことだろう",
+      "base_form_dependency": [
+        "plain-form"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "얼마나 ~한지 감탄을 담아 강조한다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M017",
+      "canonical_name": "ことに(は)",
+      "aliases": [
+        "~하게도"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "원인·결과·경위",
+      "core_meaning": [
+        "화자의 감정 제시"
+      ],
+      "function_tag": [
+        "감정",
+        "전제"
+      ],
+      "formation": "형용사/동사 た형 + ことに(は)",
+      "base_form_dependency": [
+        "ta-form",
+        "i-adjective",
+        "na-adjective"
+      ],
+      "compare_with": [],
+      "register": "written",
+      "notes": [
+        "본문 전에 화자의 감정을 먼저 제시하는 문어 표현이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M018",
+      "canonical_name": "にもかかわらず",
+      "aliases": [
+        "~에도 불구하고"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "양보·모순·역접",
+      "core_meaning": [
+        "강한 역접"
+      ],
+      "function_tag": [
+        "역접"
+      ],
+      "formation": "보통형/명사 + にもかかわらず",
+      "base_form_dependency": [
+        "plain-form",
+        "noun"
+      ],
+      "compare_with": [
+        "とはいうものの / ものの"
+      ],
+      "register": "written",
+      "notes": [
+        "N3 역접보다 사실과 결과의 괴리가 더 강하다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M019",
+      "canonical_name": "とはいうものの / ものの",
+      "aliases": [
+        "~라고는 하지만"
+      ],
+      "unit_type": "family",
+      "macro_category": "양보·모순·역접",
+      "core_meaning": [
+        "양보적 역접"
+      ],
+      "function_tag": [
+        "양보",
+        "역접"
+      ],
+      "formation": "보통형 + ものの/とはいうものの",
+      "base_form_dependency": [
+        "plain-form"
+      ],
+      "compare_with": [
+        "にもかかわらず"
+      ],
+      "register": "written",
+      "notes": [
+        "앞 사실을 인정하면서 뒤에 다른 판단을 제시한다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M020",
+      "canonical_name": "どころか",
+      "aliases": [
+        "~는커녕"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "양보·모순·역접",
+      "core_meaning": [
+        "기대 역전"
+      ],
+      "function_tag": [
+        "역접",
+        "강조"
+      ],
+      "formation": "명사/보통형 + どころか",
+      "base_form_dependency": [
+        "noun",
+        "plain-form"
+      ],
+      "compare_with": [
+        "はおろか"
+      ],
+      "register": "mixed",
+      "notes": [
+        "기대와 정반대 결과를 강조한다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M021",
+      "canonical_name": "はおろか",
+      "aliases": [
+        "~은커녕"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "양보·모순·역접",
+      "core_meaning": [
+        "극단적 기대 역전"
+      ],
+      "function_tag": [
+        "역접",
+        "극단"
+      ],
+      "formation": "명사 + はおろか",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "どころか",
+        "ばかりか / ばかりでなく"
+      ],
+      "register": "written",
+      "notes": [
+        "どころか보다 더 격식 있고 극단적이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M022",
+      "canonical_name": "からといって",
+      "aliases": [
+        "~라고 해서"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "양보·모순·역접",
+      "core_meaning": [
+        "이유의 부정"
+      ],
+      "function_tag": [
+        "양보"
+      ],
+      "formation": "보통형 + からといって",
+      "base_form_dependency": [
+        "plain-form"
+      ],
+      "compare_with": [
+        "にもかかわらず"
+      ],
+      "register": "mixed",
+      "notes": [
+        "그 이유만으로는 뒤 결론이 성립하지 않음을 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M023",
+      "canonical_name": "それにしても",
+      "aliases": [
+        "그렇다 치더라도"
+      ],
+      "unit_type": "conjunction",
+      "macro_category": "양보·모순·역접",
+      "core_meaning": [
+        "인정 후 의외"
+      ],
+      "function_tag": [
+        "양보",
+        "접속"
+      ],
+      "formation": "문장 앞",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "앞 사정을 인정하면서도 의외감을 표현한다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M024",
+      "canonical_name": "にひきかえ / に引き換え",
+      "aliases": [
+        "~와는 반대로"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "양보·모순·역접",
+      "core_meaning": [
+        "대조 강조"
+      ],
+      "function_tag": [
+        "대조"
+      ],
+      "formation": "명사 + にひきかえ",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "に反して"
+      ],
+      "register": "written",
+      "notes": [
+        "두 대상의 극단적 차이를 대비한다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M025",
+      "canonical_name": "～に反して",
+      "aliases": [
+        "~에 반하여"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "양보·모순·역접",
+      "core_meaning": [
+        "기대·예상과 어긋남"
+      ],
+      "function_tag": [
+        "역접",
+        "대조"
+      ],
+      "formation": "명사 + に反して",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "にひきかえ / に引き換え"
+      ],
+      "register": "written",
+      "notes": [
+        "예상이나 기준과 정반대인 결과를 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M026",
+      "canonical_name": "としたって / としたところで / にしたところで / にしたって",
+      "aliases": [
+        "~라고 해도 소용없다"
+      ],
+      "unit_type": "family",
+      "macro_category": "양보·모순·역접",
+      "core_meaning": [
+        "가정 무효화"
+      ],
+      "function_tag": [
+        "양보",
+        "가정"
+      ],
+      "formation": "보통형 + としたところで/としたって",
+      "base_form_dependency": [
+        "plain-form"
+      ],
+      "compare_with": [
+        "にせよ / にしろ / にしろ～にしろ"
+      ],
+      "register": "mixed",
+      "notes": [
+        "가정이 성립해도 결과가 크게 달라지지 않음을 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M027",
+      "canonical_name": "逆に",
+      "aliases": [
+        "반대로"
+      ],
+      "unit_type": "adverb",
+      "macro_category": "양보·모순·역접",
+      "core_meaning": [
+        "관점 전환"
+      ],
+      "function_tag": [
+        "접속",
+        "대조"
+      ],
+      "formation": "문장 앞",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [
+        "に反して",
+        "かえって"
+      ],
+      "register": "mixed",
+      "notes": [
+        "앞 내용을 뒤집어 다른 관점에서 보게 만든다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M028",
+      "canonical_name": "かえって",
+      "aliases": [
+        "도리어"
+      ],
+      "unit_type": "adverb",
+      "macro_category": "양보·모순·역접",
+      "core_meaning": [
+        "예상 밖 역효과"
+      ],
+      "function_tag": [
+        "역접",
+        "부사"
+      ],
+      "formation": "문장 앞/중간",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [
+        "逆に"
+      ],
+      "register": "mixed",
+      "notes": [
+        "좋은 의도와 반대로 나쁜 결과가 나올 때 쓴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M029",
+      "canonical_name": "に相違ない",
+      "aliases": [
+        "~임에 틀림없다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "판단·확신·축소·한계",
+      "core_meaning": [
+        "문어적 강한 확신"
+      ],
+      "function_tag": [
+        "확신",
+        "단정"
+      ],
+      "formation": "보통형 + に相違ない",
+      "base_form_dependency": [
+        "plain-form"
+      ],
+      "compare_with": [
+        "N3: ～に違いない",
+        "に決まっている"
+      ],
+      "register": "written",
+      "notes": [
+        "N3의 に違いない의 더 문어적 형태이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M030",
+      "canonical_name": "に決まっている",
+      "aliases": [
+        "당연하다",
+        "틀림없다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "판단·확신·축소·한계",
+      "core_meaning": [
+        "화자의 강한 단정"
+      ],
+      "function_tag": [
+        "단정",
+        "확신"
+      ],
+      "formation": "보통형 + に決まっている",
+      "base_form_dependency": [
+        "plain-form"
+      ],
+      "compare_with": [
+        "に相違ない"
+      ],
+      "register": "spoken",
+      "notes": [
+        "객관적 근거보다 화자의 주관적 확신이 강하다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M031",
+      "canonical_name": "にすぎない / すぎない",
+      "aliases": [
+        "~에 지나지 않다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "판단·확신·축소·한계",
+      "core_meaning": [
+        "축소 단정"
+      ],
+      "function_tag": [
+        "축소",
+        "한정"
+      ],
+      "formation": "명사/보통형 + にすぎない",
+      "base_form_dependency": [
+        "noun",
+        "plain-form"
+      ],
+      "compare_with": [
+        "でしかない",
+        "にほかならない"
+      ],
+      "register": "written",
+      "notes": [
+        "대상을 그 정도로만 제한하는 문어 표현이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M032",
+      "canonical_name": "にほかならない",
+      "aliases": [
+        "~에 다름 아니다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "판단·확신·축소·한계",
+      "core_meaning": [
+        "본질 규정"
+      ],
+      "function_tag": [
+        "단정",
+        "본질"
+      ],
+      "formation": "명사/보통형 + にほかならない",
+      "base_form_dependency": [
+        "noun",
+        "plain-form"
+      ],
+      "compare_with": [
+        "にすぎない",
+        "でしかない"
+      ],
+      "register": "written",
+      "notes": [
+        "바로 그것이라고 본질을 규정한다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M033",
+      "canonical_name": "でしかない",
+      "aliases": [
+        "단지 ~일 뿐이다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "판단·확신·축소·한계",
+      "core_meaning": [
+        "축소 단정"
+      ],
+      "function_tag": [
+        "축소",
+        "한정"
+      ],
+      "formation": "명사/보통형 + でしかない",
+      "base_form_dependency": [
+        "noun",
+        "plain-form"
+      ],
+      "compare_with": [
+        "にすぎない"
+      ],
+      "register": "written",
+      "notes": [
+        "N4의 しか～ない보다 문어적이고 단정적이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M034",
+      "canonical_name": "得る / 得ない",
+      "aliases": [
+        "~할 수 있다/없다"
+      ],
+      "unit_type": "family",
+      "macro_category": "판단·확신·축소·한계",
+      "core_meaning": [
+        "사태의 가능/불가능"
+      ],
+      "function_tag": [
+        "가능",
+        "불가능"
+      ],
+      "formation": "동사 ます형 어간 + 得る/得ない",
+      "base_form_dependency": [
+        "masu-stem"
+      ],
+      "compare_with": [
+        "かねる",
+        "かねない"
+      ],
+      "register": "written",
+      "notes": [
+        "개인 능력보다 사태 자체의 가능성을 따진다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M035",
+      "canonical_name": "恐れがある",
+      "aliases": [
+        "~할 우려가 있다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "판단·확신·축소·한계",
+      "core_meaning": [
+        "부정적 가능성"
+      ],
+      "function_tag": [
+        "우려"
+      ],
+      "formation": "동사 사전형/명사+の + 恐れがある",
+      "base_form_dependency": [
+        "dictionary-form",
+        "noun"
+      ],
+      "compare_with": [
+        "かねない"
+      ],
+      "register": "written",
+      "notes": [
+        "공식 문서에서 위험·우려를 나타낼 때 쓴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M036",
+      "canonical_name": "とは限らない / ないとは限らない",
+      "aliases": [
+        "반드시 ~인 것은 아니다"
+      ],
+      "unit_type": "family",
+      "macro_category": "판단·확신·축소·한계",
+      "core_meaning": [
+        "부분 부정",
+        "예외 가능"
+      ],
+      "function_tag": [
+        "부분 부정"
+      ],
+      "formation": "보통형 + とは限らない",
+      "base_form_dependency": [
+        "plain-form"
+      ],
+      "compare_with": [
+        "ないことはない / ないこともない",
+        "N3: わけではない"
+      ],
+      "register": "mixed",
+      "notes": [
+        "일반화에 예외를 남기는 표현이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M037",
+      "canonical_name": "というものだ / というものでもない / というものではない",
+      "aliases": [
+        "~라는 것이다",
+        "꼭 ~인 것은 아니다"
+      ],
+      "unit_type": "family",
+      "macro_category": "판단·확신·축소·한계",
+      "core_meaning": [
+        "통념 긍정/부정"
+      ],
+      "function_tag": [
+        "통념",
+        "판단"
+      ],
+      "formation": "보통형 + というものだ/というものではない",
+      "base_form_dependency": [
+        "plain-form"
+      ],
+      "compare_with": [
+        "N3: わけだ"
+      ],
+      "register": "mixed",
+      "notes": [
+        "통념을 긍정하거나 부분적으로 부정한다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M038",
+      "canonical_name": "というわけではない / わけではない",
+      "aliases": [
+        "반드시 ~인 것은 아니다"
+      ],
+      "unit_type": "family",
+      "macro_category": "판단·확신·축소·한계",
+      "core_meaning": [
+        "부분 부정"
+      ],
+      "function_tag": [
+        "부분 부정"
+      ],
+      "formation": "보통형 + というわけではない",
+      "base_form_dependency": [
+        "plain-form"
+      ],
+      "compare_with": [
+        "とは限らない"
+      ],
+      "register": "mixed",
+      "notes": [
+        "N3의 わけではない와 같은 구조이지만, N2 독해에서 빈출한다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M039",
+      "canonical_name": "ところを見ると",
+      "aliases": [
+        "~하는 것을 보니"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "판단·확신·축소·한계",
+      "core_meaning": [
+        "정황 근거 추정"
+      ],
+      "function_tag": [
+        "추정",
+        "근거"
+      ],
+      "formation": "보통형 + ところを見ると",
+      "base_form_dependency": [
+        "plain-form"
+      ],
+      "compare_with": [
+        "かのようだ / かのように"
+      ],
+      "register": "mixed",
+      "notes": [
+        "겉으로 드러난 정황을 근거로 판단한다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M040",
+      "canonical_name": "かのようだ / かのように",
+      "aliases": [
+        "마치 ~인 것처럼"
+      ],
+      "unit_type": "family",
+      "macro_category": "판단·확신·축소·한계",
+      "core_meaning": [
+        "서술적 비유"
+      ],
+      "function_tag": [
+        "비유",
+        "묘사"
+      ],
+      "formation": "보통형 + かのようだ/かのように",
+      "base_form_dependency": [
+        "plain-form"
+      ],
+      "compare_with": [
+        "N3: まるで～ようだ"
+      ],
+      "register": "written",
+      "notes": [
+        "N3의 ようだ보다 더 서술적이고 문어적인 비유이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M041",
+      "canonical_name": "ないことはない / なくもない",
+      "aliases": [
+        "~않은 것도 아니다"
+      ],
+      "unit_type": "family",
+      "macro_category": "판단·확신·축소·한계",
+      "core_meaning": [
+        "완곡 긍정",
+        "여지 남김"
+      ],
+      "function_tag": [
+        "완곡 긍정"
+      ],
+      "formation": "동사 ない형 + ことはない/なくもない",
+      "base_form_dependency": [
+        "nai-form"
+      ],
+      "compare_with": [
+        "とは限らない"
+      ],
+      "register": "mixed",
+      "notes": [
+        "부정형 이중으로 약한 긍정을 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M042",
+      "canonical_name": "ものか / もんか",
+      "aliases": [
+        "결코 ~않겠다"
+      ],
+      "unit_type": "family",
+      "macro_category": "판단·확신·축소·한계",
+      "core_meaning": [
+        "감정적 강한 부정"
+      ],
+      "function_tag": [
+        "강한 부정",
+        "반발"
+      ],
+      "formation": "동사 사전형/가능형 + ものか/もんか",
+      "base_form_dependency": [
+        "dictionary-form",
+        "potential-form"
+      ],
+      "compare_with": [
+        "っこない"
+      ],
+      "register": "mixed",
+      "notes": [
+        "반발이나 결의를 담은 감정적 부정이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M043",
+      "canonical_name": "に限る",
+      "aliases": [
+        "~이 제일이다",
+        "~에 한하다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "판단·확신·축소·한계",
+      "core_meaning": [
+        "최선 판단"
+      ],
+      "function_tag": [
+        "단정",
+        "추천"
+      ],
+      "formation": "명사/동사 사전형 + に限る",
+      "base_form_dependency": [
+        "noun",
+        "dictionary-form"
+      ],
+      "compare_with": [
+        "に越したことはない"
+      ],
+      "register": "mixed",
+      "notes": [
+        "화자의 강한 선호나 경험적 결론이 실린다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M044",
+      "canonical_name": "に越したことはない",
+      "aliases": [
+        "~하는 편이 가장 낫다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "판단·확신·축소·한계",
+      "core_meaning": [
+        "최선 판단(완곡)"
+      ],
+      "function_tag": [
+        "조언",
+        "판단"
+      ],
+      "formation": "동사 사전형/ない형 + に越したことはない",
+      "base_form_dependency": [
+        "dictionary-form",
+        "nai-form"
+      ],
+      "compare_with": [
+        "に限る"
+      ],
+      "register": "mixed",
+      "notes": [
+        "~하면 가장 좋지만 반드시는 아니라는 완곡한 최선이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M045",
+      "canonical_name": "ということは",
+      "aliases": [
+        "~라는 것은"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "판단·확신·축소·한계",
+      "core_meaning": [
+        "논리적 추론 도입"
+      ],
+      "function_tag": [
+        "추론",
+        "확인"
+      ],
+      "formation": "보통형 + ということは",
+      "base_form_dependency": [
+        "plain-form"
+      ],
+      "compare_with": [
+        "N3: わけだ"
+      ],
+      "register": "mixed",
+      "notes": [
+        "앞 사실에서 논리적으로 이끌어 내는 추론을 도입한다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M046",
+      "canonical_name": "のではないだろうか / のではないか / んじゃないか",
+      "aliases": [
+        "~가 아닐까"
+      ],
+      "unit_type": "family",
+      "macro_category": "판단·확신·축소·한계",
+      "core_meaning": [
+        "완곡한 주장·의문"
+      ],
+      "function_tag": [
+        "주장",
+        "의문"
+      ],
+      "formation": "보통형 + のではないだろうか",
+      "base_form_dependency": [
+        "plain-form"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "직접 단정을 피하며 의견을 제시하는 논술형 표현이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M047",
+      "canonical_name": "もう少しで",
+      "aliases": [
+        "하마터면"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "판단·확신·축소·한계",
+      "core_meaning": [
+        "미수"
+      ],
+      "function_tag": [
+        "미수",
+        "직전"
+      ],
+      "formation": "もう少しで + 절",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [
+        "N3: ～ところだった"
+      ],
+      "register": "mixed",
+      "notes": [
+        "거의 일어날 뻔한 아슬아슬한 상황을 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M048",
+      "canonical_name": "上（じょう）",
+      "aliases": [
+        "~상",
+        "~의 관점에서"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "관점·기준·범위 설정",
+      "core_meaning": [
+        "제도·분야의 틀 안에서"
+      ],
+      "function_tag": [
+        "기준",
+        "관점"
+      ],
+      "formation": "명사 + 上",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "～の上で"
+      ],
+      "register": "written",
+      "notes": [
+        "법·제도·절차 같은 추상적 틀을 먼저 세운다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M049",
+      "canonical_name": "からいうと / からいって / からいえば",
+      "aliases": [
+        "~의 입장에서 보면"
+      ],
+      "unit_type": "family",
+      "macro_category": "관점·기준·범위 설정",
+      "core_meaning": [
+        "관점 제시"
+      ],
+      "function_tag": [
+        "관점",
+        "판단"
+      ],
+      "formation": "명사 + からいうと/からいって",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "からすると / からすれば"
+      ],
+      "register": "mixed",
+      "notes": [
+        "어떤 측면에서 보면이라는 관점을 세운다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M050",
+      "canonical_name": "からして",
+      "aliases": [
+        "~부터가",
+        "~로 미루어"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "관점·기준·범위 설정",
+      "core_meaning": [
+        "부분 근거에서 전체 판단"
+      ],
+      "function_tag": [
+        "근거",
+        "판단"
+      ],
+      "formation": "명사 + からして",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "からいうと",
+        "からすると / からすれば"
+      ],
+      "register": "mixed",
+      "notes": [
+        "일부를 보고 전체를 판단하는 느낌이 강하다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M051",
+      "canonical_name": "からすると / からすれば",
+      "aliases": [
+        "~로 보면"
+      ],
+      "unit_type": "family",
+      "macro_category": "관점·기준·범위 설정",
+      "core_meaning": [
+        "입장·기준에 따른 판단"
+      ],
+      "function_tag": [
+        "관점",
+        "판단"
+      ],
+      "formation": "명사 + からすると/からすれば",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "からいうと",
+        "にしたら / にすれば / にしてみれば"
+      ],
+      "register": "mixed",
+      "notes": [
+        "누구의 기준으로 보는지 분명히 드러낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M052",
+      "canonical_name": "にしたら / にすれば / にしてみれば",
+      "aliases": [
+        "~의 입장에서 보면"
+      ],
+      "unit_type": "family",
+      "macro_category": "관점·기준·범위 설정",
+      "core_meaning": [
+        "타인 입장 전환"
+      ],
+      "function_tag": [
+        "관점",
+        "감정 이입"
+      ],
+      "formation": "명사 + にしたら/にすれば/にしてみれば",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "からすると / からすれば"
+      ],
+      "register": "mixed",
+      "notes": [
+        "상대의 감정·입장으로 들어가서 판단하는 느낌이 강하다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M053",
+      "canonical_name": "において / における",
+      "aliases": [
+        "~에서",
+        "~에 있어서"
+      ],
+      "unit_type": "family",
+      "macro_category": "관점·기준·범위 설정",
+      "core_meaning": [
+        "장소·분야·시대를 공식 지정"
+      ],
+      "function_tag": [
+        "장면 설정",
+        "범위"
+      ],
+      "formation": "명사 + において/における",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "のもとで / のもとに"
+      ],
+      "register": "written",
+      "notes": [
+        "일상 장소 표현보다 훨씬 공적이고 추상적이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M054",
+      "canonical_name": "のもとで / のもとに",
+      "aliases": [
+        "~의 아래에서"
+      ],
+      "unit_type": "family",
+      "macro_category": "관점·기준·범위 설정",
+      "core_meaning": [
+        "조건·영향 아래"
+      ],
+      "function_tag": [
+        "조건",
+        "영향"
+      ],
+      "formation": "명사 + のもとで/のもとに",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "において / における"
+      ],
+      "register": "written",
+      "notes": [
+        "리더십·제도·조건의 영향 아래에서를 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M055",
+      "canonical_name": "に基づいて / に基づき",
+      "aliases": [
+        "~에 근거하여"
+      ],
+      "unit_type": "family",
+      "macro_category": "관점·기준·범위 설정",
+      "core_meaning": [
+        "근거·출처 명시"
+      ],
+      "function_tag": [
+        "근거",
+        "기준"
+      ],
+      "formation": "명사 + に基づいて/に基づき",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "N3: ～によって"
+      ],
+      "register": "written",
+      "notes": [
+        "법률·데이터·사실을 근거로 삼을 때 쓴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M056",
+      "canonical_name": "に応えて / にこたえて",
+      "aliases": [
+        "~에 부응하여"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "관점·기준·범위 설정",
+      "core_meaning": [
+        "기대·요청에 대응"
+      ],
+      "function_tag": [
+        "대응"
+      ],
+      "formation": "명사 + に応えて",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "N3: ～に応じて"
+      ],
+      "register": "written",
+      "notes": [
+        "기대에 맞춰 움직인다는 느낌이 강하다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M057",
+      "canonical_name": "を巡って / をめぐって / をめぐる",
+      "aliases": [
+        "~을 둘러싸고"
+      ],
+      "unit_type": "family",
+      "macro_category": "관점·기준·범위 설정",
+      "core_meaning": [
+        "쟁점을 둘러싼 논의"
+      ],
+      "function_tag": [
+        "쟁점",
+        "논의"
+      ],
+      "formation": "명사 + をめぐって/をめぐる",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [],
+      "register": "written",
+      "notes": [
+        "여러 주체가 같은 화제를 두고 움직인다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M058",
+      "canonical_name": "に向けて / に向かって",
+      "aliases": [
+        "~을 향해",
+        "~을 목표로"
+      ],
+      "unit_type": "family",
+      "macro_category": "관점·기준·범위 설정",
+      "core_meaning": [
+        "방향·목표 설정"
+      ],
+      "function_tag": [
+        "방향",
+        "목표"
+      ],
+      "formation": "명사 + に向けて/に向かって",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "목표를 향해 행동하는 방향성을 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M059",
+      "canonical_name": "につき",
+      "aliases": [
+        "~이므로",
+        "~에 관하여"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "관점·기준·범위 설정",
+      "core_meaning": [
+        "공고문 이유·주제"
+      ],
+      "function_tag": [
+        "이유",
+        "공고"
+      ],
+      "formation": "명사 + につき",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "お / ご ～ 願う"
+      ],
+      "register": "written",
+      "notes": [
+        "안내문·공고문에서 이유나 관련 사항을 밝힐 때 쓴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M060",
+      "canonical_name": "～上に",
+      "aliases": [
+        "~뿐만 아니라"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "관점·기준·범위 설정",
+      "core_meaning": [
+        "이유 누적"
+      ],
+      "function_tag": [
+        "추가",
+        "이유"
+      ],
+      "formation": "보통형 + 上に",
+      "base_form_dependency": [
+        "plain-form"
+      ],
+      "compare_with": [
+        "ばかりか / ばかりでなく"
+      ],
+      "register": "mixed",
+      "notes": [
+        "이유나 사실을 누적하여 결론을 강화한다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M061",
+      "canonical_name": "いわゆる",
+      "aliases": [
+        "이른바",
+        "소위"
+      ],
+      "unit_type": "adverb",
+      "macro_category": "관점·기준·범위 설정",
+      "core_meaning": [
+        "일반 통칭 제시"
+      ],
+      "function_tag": [
+        "수식",
+        "통칭"
+      ],
+      "formation": "いわゆる + 명사",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "세간에서 흔히 부르는 명칭을 제시한다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M062",
+      "canonical_name": "に限り / に限って / に限らず",
+      "aliases": [
+        "~에 한해",
+        "~에 국한되지 않고"
+      ],
+      "unit_type": "family",
+      "macro_category": "범위·예외·무관 조건",
+      "core_meaning": [
+        "한정·비한정"
+      ],
+      "function_tag": [
+        "한정",
+        "범위"
+      ],
+      "formation": "명사 + に限り/に限って/に限らず",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "限りでは"
+      ],
+      "register": "mixed",
+      "notes": [
+        "대상을 한정하거나 반대로 한정을 풀 때 쓴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M063",
+      "canonical_name": "限りでは",
+      "aliases": [
+        "~하는 범위에서는"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "범위·예외·무관 조건",
+      "core_meaning": [
+        "판단 범위 한정"
+      ],
+      "function_tag": [
+        "범위",
+        "한정"
+      ],
+      "formation": "보통형 + 限りでは",
+      "base_form_dependency": [
+        "plain-form"
+      ],
+      "compare_with": [
+        "に限り / に限って / に限らず"
+      ],
+      "register": "mixed",
+      "notes": [
+        "자신이 아는 범위 안에서라는 한정을 건다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M064",
+      "canonical_name": "を問わず",
+      "aliases": [
+        "~을 불문하고"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "범위·예외·무관 조건",
+      "core_meaning": [
+        "무관 조건"
+      ],
+      "function_tag": [
+        "무관",
+        "범위"
+      ],
+      "formation": "명사 + を問わず",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "にもかかわらず"
+      ],
+      "register": "written",
+      "notes": [
+        "조건에 관계없이를 나타내는 문어 표현이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M065",
+      "canonical_name": "にせよ / にしろ / にしろ～にしろ",
+      "aliases": [
+        "~라 해도",
+        "~이든 ~이든"
+      ],
+      "unit_type": "family",
+      "macro_category": "범위·예외·무관 조건",
+      "core_meaning": [
+        "양보 가정",
+        "선택 무관"
+      ],
+      "function_tag": [
+        "양보",
+        "무관"
+      ],
+      "formation": "명사/보통형 + にせよ/にしろ",
+      "base_form_dependency": [
+        "noun",
+        "plain-form"
+      ],
+      "compare_with": [
+        "にしても～にしても",
+        "としたって / としたところで"
+      ],
+      "register": "mixed",
+      "notes": [
+        "어떤 경우를 인정해도 결론은 유지된다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M066",
+      "canonical_name": "にしても～にしても",
+      "aliases": [
+        "~이든 ~이든"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "범위·예외·무관 조건",
+      "core_meaning": [
+        "양자 무관"
+      ],
+      "function_tag": [
+        "무관",
+        "양보"
+      ],
+      "formation": "명사/보통형 + にしても + 명사/보통형 + にしても",
+      "base_form_dependency": [
+        "noun",
+        "plain-form"
+      ],
+      "compare_with": [
+        "にせよ / にしろ"
+      ],
+      "register": "mixed",
+      "notes": [
+        "두 경우 어느 쪽이든 결론이 같다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M067",
+      "canonical_name": "を除いて / 除いて",
+      "aliases": [
+        "~을 제외하고"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "범위·예외·무관 조건",
+      "core_meaning": [
+        "제외"
+      ],
+      "function_tag": [
+        "제외",
+        "범위"
+      ],
+      "formation": "명사 + を除いて",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "に限り / に限って / に限らず"
+      ],
+      "register": "written",
+      "notes": [
+        "특정 대상을 명시적으로 빼는 표현이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M068",
+      "canonical_name": "抜きにして(は) / 抜きで(は)",
+      "aliases": [
+        "~을 빼고는"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "범위·예외·무관 조건",
+      "core_meaning": [
+        "제외·생략"
+      ],
+      "function_tag": [
+        "제외"
+      ],
+      "formation": "명사 + 抜きにして/抜きで",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "を除いて"
+      ],
+      "register": "mixed",
+      "notes": [
+        "형식이나 요소를 빼고 본론으로 가자는 느낌이 있다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M069",
+      "canonical_name": "はともかく(として)",
+      "aliases": [
+        "~은 어쨌든"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "범위·예외·무관 조건",
+      "core_meaning": [
+        "논외 처리"
+      ],
+      "function_tag": [
+        "논외",
+        "양보"
+      ],
+      "formation": "명사 + はともかく(として)",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "は別として"
+      ],
+      "register": "mixed",
+      "notes": [
+        "한 항목을 잠시 논외로 두고 다른 점을 말한다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M070",
+      "canonical_name": "は別として",
+      "aliases": [
+        "~은 별개로 하고"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "범위·예외·무관 조건",
+      "core_meaning": [
+        "별개 처리"
+      ],
+      "function_tag": [
+        "제외",
+        "논점 조정"
+      ],
+      "formation": "명사 + は別として",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "はともかく(として)"
+      ],
+      "register": "mixed",
+      "notes": [
+        "한 항목을 완전히 분리해서 보자는 느낌이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M071",
+      "canonical_name": "ものなら",
+      "aliases": [
+        "~할 수만 있다면"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "가정·필수 조건·양보 가정",
+      "core_meaning": [
+        "비현실적 희망 가정"
+      ],
+      "function_tag": [
+        "가정",
+        "희망"
+      ],
+      "formation": "동사 가능형 + ものなら",
+      "base_form_dependency": [
+        "potential-form"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "실현 가능성이 낮은 바람을 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M072",
+      "canonical_name": "ないことには",
+      "aliases": [
+        "~하지 않고서는"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "가정·필수 조건·양보 가정",
+      "core_meaning": [
+        "필수 전제"
+      ],
+      "function_tag": [
+        "전제",
+        "필수"
+      ],
+      "formation": "동사 ない형 + ことには",
+      "base_form_dependency": [
+        "nai-form"
+      ],
+      "compare_with": [
+        "てこそ"
+      ],
+      "register": "mixed",
+      "notes": [
+        "그것 없이는 뒤가 성립하지 않는다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M073",
+      "canonical_name": "てこそ",
+      "aliases": [
+        "~하고 나서야 비로소"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "가정·필수 조건·양보 가정",
+      "core_meaning": [
+        "필수성 강조"
+      ],
+      "function_tag": [
+        "필수 조건",
+        "강조"
+      ],
+      "formation": "동사 て형 + こそ",
+      "base_form_dependency": [
+        "te-form"
+      ],
+      "compare_with": [
+        "ないことには"
+      ],
+      "register": "mixed",
+      "notes": [
+        "N3의 てはじめて보다 가치·의미 부여가 더 강하다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M074",
+      "canonical_name": "ては / ては～ては",
+      "aliases": [
+        "~하면",
+        "~했다가 ~했다가"
+      ],
+      "unit_type": "family",
+      "macro_category": "가정·필수 조건·양보 가정",
+      "core_meaning": [
+        "반복 조건",
+        "부정적 결과"
+      ],
+      "function_tag": [
+        "조건",
+        "반복"
+      ],
+      "formation": "동사 て형 + は",
+      "base_form_dependency": [
+        "te-form"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "조건 반복과 좋지 않은 순환을 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M075",
+      "canonical_name": "てはならない",
+      "aliases": [
+        "~해서는 안 된다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "가정·필수 조건·양보 가정",
+      "core_meaning": [
+        "규범적 금지"
+      ],
+      "function_tag": [
+        "금지",
+        "규범"
+      ],
+      "formation": "동사 て형 + はならない",
+      "base_form_dependency": [
+        "te-form"
+      ],
+      "compare_with": [
+        "ねばならない / ねばならぬ"
+      ],
+      "register": "written",
+      "notes": [
+        "N4의 てはいけない보다 더 격식 있고 규범적이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M076",
+      "canonical_name": "ばと思います",
+      "aliases": [
+        "~했으면 합니다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "가정·필수 조건·양보 가정",
+      "core_meaning": [
+        "정중한 희망"
+      ],
+      "function_tag": [
+        "희망",
+        "정중"
+      ],
+      "formation": "동사·형용사 ば형 + と思います",
+      "base_form_dependency": [
+        "ba-form"
+      ],
+      "compare_with": [],
+      "register": "polite",
+      "notes": [
+        "공적 장면에서 정중하게 희망을 전달하는 표현이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M077",
+      "canonical_name": "万一 / 万が一",
+      "aliases": [
+        "만일",
+        "만에 하나"
+      ],
+      "unit_type": "adverb",
+      "macro_category": "가정·필수 조건·양보 가정",
+      "core_meaning": [
+        "극히 낮은 확률의 가정"
+      ],
+      "function_tag": [
+        "가정",
+        "부사"
+      ],
+      "formation": "万一/万が一 + 조건절",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "거의 일어나지 않을 상황을 가정할 때 쓴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M078",
+      "canonical_name": "ざるを得ない",
+      "aliases": [
+        "~하지 않을 수 없다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "제약·강제·회피·불가피",
+      "core_meaning": [
+        "상황상 불가피"
+      ],
+      "function_tag": [
+        "불가피",
+        "강제"
+      ],
+      "formation": "동사 ない형 어간 + ざるを得ない (する→せざる)",
+      "base_form_dependency": [
+        "nai-stem"
+      ],
+      "compare_with": [
+        "ねばならない / ねばならぬ",
+        "ほかない / よりほかない"
+      ],
+      "register": "written",
+      "notes": [
+        "외부 사정 때문에 선택지가 없다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M079",
+      "canonical_name": "かねる",
+      "aliases": [
+        "~하기 어렵다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "제약·강제·회피·불가피",
+      "core_meaning": [
+        "완곡 거절"
+      ],
+      "function_tag": [
+        "곤란",
+        "거절"
+      ],
+      "formation": "동사 ます형 어간 + かねる",
+      "base_form_dependency": [
+        "masu-stem"
+      ],
+      "compare_with": [
+        "かねない"
+      ],
+      "register": "polite",
+      "notes": [
+        "비즈니스에서 부드럽게 거절할 때 자주 쓴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M080",
+      "canonical_name": "かねない",
+      "aliases": [
+        "~할 우려가 있다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "제약·강제·회피·불가피",
+      "core_meaning": [
+        "부정적 가능성"
+      ],
+      "function_tag": [
+        "우려",
+        "위험"
+      ],
+      "formation": "동사 ます형 어간 + かねない",
+      "base_form_dependency": [
+        "masu-stem"
+      ],
+      "compare_with": [
+        "恐れがある",
+        "かねる"
+      ],
+      "register": "mixed",
+      "notes": [
+        "좋지 않은 사태에만 쓰는 점이 중요하다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M081",
+      "canonical_name": "っこない",
+      "aliases": [
+        "절대 ~할 리가 없다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "제약·강제·회피·불가피",
+      "core_meaning": [
+        "강한 불가능 단정"
+      ],
+      "function_tag": [
+        "강한 부정"
+      ],
+      "formation": "동사 ます형 어간 + っこない",
+      "base_form_dependency": [
+        "masu-stem"
+      ],
+      "compare_with": [
+        "ものか / もんか"
+      ],
+      "register": "spoken",
+      "notes": [
+        "구어에서 강한 확신으로 불가능을 단정한다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M082",
+      "canonical_name": "てはいられない / てばかりはいられない",
+      "aliases": [
+        "계속 ~하고만 있을 수 없다"
+      ],
+      "unit_type": "family",
+      "macro_category": "제약·강제·회피·불가피",
+      "core_meaning": [
+        "상태 유지 불가"
+      ],
+      "function_tag": [
+        "긴박",
+        "전환"
+      ],
+      "formation": "동사 て형 + はいられない",
+      "base_form_dependency": [
+        "te-form"
+      ],
+      "compare_with": [
+        "どころではない"
+      ],
+      "register": "mixed",
+      "notes": [
+        "지금 상태를 끊고 행동해야 한다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M083",
+      "canonical_name": "どころではない",
+      "aliases": [
+        "~할 상황이 아니다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "제약·강제·회피·불가피",
+      "core_meaning": [
+        "상황상 여유 없음"
+      ],
+      "function_tag": [
+        "불가능"
+      ],
+      "formation": "명사/동사 사전형 + どころではない",
+      "base_form_dependency": [
+        "noun",
+        "dictionary-form"
+      ],
+      "compare_with": [
+        "てはいられない"
+      ],
+      "register": "mixed",
+      "notes": [
+        "그것을 할 여유가 전혀 없다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M084",
+      "canonical_name": "ずに済む / ないで済む / なくて済む",
+      "aliases": [
+        "~하지 않아도 되다"
+      ],
+      "unit_type": "family",
+      "macro_category": "제약·강제·회피·불가피",
+      "core_meaning": [
+        "회피·면제"
+      ],
+      "function_tag": [
+        "회피",
+        "면제"
+      ],
+      "formation": "동사 ない형 + なくて済む / ない형 어간 + ずに済む",
+      "base_form_dependency": [
+        "nai-form",
+        "nai-stem"
+      ],
+      "compare_with": [
+        "て済む / で済む"
+      ],
+      "register": "mixed",
+      "notes": [
+        "하지 않아도 되어서 다행이라는 느낌이 있다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M085",
+      "canonical_name": "て済む / で済む",
+      "aliases": [
+        "~하는 것으로 끝나다"
+      ],
+      "unit_type": "family",
+      "macro_category": "제약·강제·회피·불가피",
+      "core_meaning": [
+        "최소 처리"
+      ],
+      "function_tag": [
+        "간단 해결"
+      ],
+      "formation": "동사 て형/명사 + で + 済む",
+      "base_form_dependency": [
+        "te-form",
+        "noun"
+      ],
+      "compare_with": [
+        "ずに済む / ないで済む"
+      ],
+      "register": "mixed",
+      "notes": [
+        "예상보다 가볍게 끝났다는 안도감이 실린다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M086",
+      "canonical_name": "ねばならない / ねばならぬ",
+      "aliases": [
+        "~해야 한다"
+      ],
+      "unit_type": "family",
+      "macro_category": "제약·강제·회피·불가피",
+      "core_meaning": [
+        "문어적 강한 의무"
+      ],
+      "function_tag": [
+        "의무",
+        "문어"
+      ],
+      "formation": "동사 ない형 어간 + ねばならない/ねばならぬ",
+      "base_form_dependency": [
+        "nai-stem"
+      ],
+      "compare_with": [
+        "ざるを得ない",
+        "からには / 以上(は) / 上は"
+      ],
+      "register": "written",
+      "notes": [
+        "N4의 なければならない의 더 문어적 형태이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M087",
+      "canonical_name": "わけにはいかない / ないわけにはいかない",
+      "aliases": [
+        "~할 수는 없다",
+        "~하지 않을 수 없다"
+      ],
+      "unit_type": "family",
+      "macro_category": "제약·강제·회피·불가피",
+      "core_meaning": [
+        "상황상 제약"
+      ],
+      "function_tag": [
+        "제약",
+        "의무"
+      ],
+      "formation": "동사 사전형/ない형 + わけにはいかない",
+      "base_form_dependency": [
+        "dictionary-form",
+        "nai-form"
+      ],
+      "compare_with": [
+        "ざるを得ない"
+      ],
+      "register": "mixed",
+      "notes": [
+        "N3에서 기초를 배웠고, N2 독해에서 빈출한다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M088",
+      "canonical_name": "ほかない / よりほかない / よりしかたがない",
+      "aliases": [
+        "~할 수밖에 없다"
+      ],
+      "unit_type": "family",
+      "macro_category": "제약·강제·회피·불가피",
+      "core_meaning": [
+        "불가피한 유일 선택"
+      ],
+      "function_tag": [
+        "불가피"
+      ],
+      "formation": "동사 사전형 + ほかない/よりほかない",
+      "base_form_dependency": [
+        "dictionary-form"
+      ],
+      "compare_with": [
+        "ざるを得ない"
+      ],
+      "register": "mixed",
+      "notes": [
+        "다른 선택지가 없어 그것밖에 할 수 없다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M089",
+      "canonical_name": "てでも",
+      "aliases": [
+        "~해서라도"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "제약·강제·회피·불가피",
+      "core_meaning": [
+        "수단 감수"
+      ],
+      "function_tag": [
+        "수단",
+        "의지"
+      ],
+      "formation": "동사 て형 + でも",
+      "base_form_dependency": [
+        "te-form"
+      ],
+      "compare_with": [
+        "てまで / までして"
+      ],
+      "register": "mixed",
+      "notes": [
+        "어떤 수단을 써서라도 목적을 달성하겠다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M090",
+      "canonical_name": "てまで / までして",
+      "aliases": [
+        "굳이 ~까지 해서"
+      ],
+      "unit_type": "family",
+      "macro_category": "제약·강제·회피·불가피",
+      "core_meaning": [
+        "과도한 수단에 대한 의문"
+      ],
+      "function_tag": [
+        "수단",
+        "과도"
+      ],
+      "formation": "동사 て형 + まで / 명사 + までして",
+      "base_form_dependency": [
+        "te-form",
+        "noun"
+      ],
+      "compare_with": [
+        "てでも"
+      ],
+      "register": "mixed",
+      "notes": [
+        "그렇게까지 할 필요가 있느냐는 의문이 담긴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M091",
+      "canonical_name": "なしに(は) / なしで(は)",
+      "aliases": [
+        "~없이"
+      ],
+      "unit_type": "family",
+      "macro_category": "제약·강제·회피·불가피",
+      "core_meaning": [
+        "결핍 상태"
+      ],
+      "function_tag": [
+        "결핍",
+        "조건"
+      ],
+      "formation": "명사 + なしに(は)/なしで(は)",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "抜きにして(は) / 抜きで(は)"
+      ],
+      "register": "mixed",
+      "notes": [
+        "필수 요소 없이는 불가능하다는 느낌이 있다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M092",
+      "canonical_name": "ずじまい",
+      "aliases": [
+        "결국 ~하지 못하고 끝남"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "제약·강제·회피·불가피",
+      "core_meaning": [
+        "미수·미완"
+      ],
+      "function_tag": [
+        "미수",
+        "유감"
+      ],
+      "formation": "동사 ない형 어간 + ずじまい (する→せず)",
+      "base_form_dependency": [
+        "nai-stem"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "하려고 했지만 결국 못하고 끝났다는 유감이 있다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M093",
+      "canonical_name": "たまでだ / たまでのことだ",
+      "aliases": [
+        "~했을 뿐이다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "제약·강제·회피·불가피",
+      "core_meaning": [
+        "행동 한정 변명"
+      ],
+      "function_tag": [
+        "변명",
+        "한정"
+      ],
+      "formation": "동사 た형 + までだ/までのことだ",
+      "base_form_dependency": [
+        "ta-form"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "특별한 의도 없이 단지 그렇게 했을 뿐이라는 변명이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M094",
+      "canonical_name": "抜く",
+      "aliases": [
+        "끝까지 ~하다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "감정·상태 변화·완수",
+      "core_meaning": [
+        "완수",
+        "극복"
+      ],
+      "function_tag": [
+        "완수"
+      ],
+      "formation": "동사 ます형 어간 + 抜く",
+      "base_form_dependency": [
+        "masu-stem"
+      ],
+      "compare_with": [
+        "N3: きる / きれない"
+      ],
+      "register": "mixed",
+      "notes": [
+        "끝까지 밀어붙여 해냈다는 완수성이 강하다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M095",
+      "canonical_name": "ものがある",
+      "aliases": [
+        "~한 면이 있다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "감정·상태 변화·완수",
+      "core_meaning": [
+        "감상적 평가"
+      ],
+      "function_tag": [
+        "평가",
+        "인상"
+      ],
+      "formation": "보통형 + ものがある",
+      "base_form_dependency": [
+        "plain-form"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "깊은 인상이나 감동을 담아 평가한다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M096",
+      "canonical_name": "たいものだ",
+      "aliases": [
+        "~하고 싶은 법이다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "감정·상태 변화·완수",
+      "core_meaning": [
+        "소망·감상"
+      ],
+      "function_tag": [
+        "희망",
+        "감상"
+      ],
+      "formation": "동사 ます형 어간 + たいものだ",
+      "base_form_dependency": [
+        "masu-stem"
+      ],
+      "compare_with": [
+        "ものがある"
+      ],
+      "register": "mixed",
+      "notes": [
+        "일반론처럼 소망이나 감상을 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M097",
+      "canonical_name": "て当然だ / のも当然だ",
+      "aliases": [
+        "~하는 것도 당연하다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "감정·상태 변화·완수",
+      "core_meaning": [
+        "당연한 귀결"
+      ],
+      "function_tag": [
+        "당연",
+        "판단"
+      ],
+      "formation": "동사 て형/보통형+の + も当然だ",
+      "base_form_dependency": [
+        "te-form",
+        "plain-form"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "상황을 고려하면 당연하다는 판단이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M098",
+      "canonical_name": "がたい",
+      "aliases": [
+        "~하기 어렵다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "감정·상태 변화·완수",
+      "core_meaning": [
+        "심리적 수용 곤란"
+      ],
+      "function_tag": [
+        "난이도",
+        "거부감"
+      ],
+      "formation": "동사 ます형 어간 + がたい",
+      "base_form_dependency": [
+        "masu-stem"
+      ],
+      "compare_with": [
+        "かねる",
+        "N4: づらい"
+      ],
+      "register": "written",
+      "notes": [
+        "N4의 づらい보다 심리적·가치판단적 어려움이 강하다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M099",
+      "canonical_name": "がち",
+      "aliases": [
+        "~하기 쉽다",
+        "~하는 경향"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "감정·상태 변화·완수",
+      "core_meaning": [
+        "부정적 경향"
+      ],
+      "function_tag": [
+        "경향"
+      ],
+      "formation": "동사 ます형 어간/명사 + がち",
+      "base_form_dependency": [
+        "masu-stem",
+        "noun"
+      ],
+      "compare_with": [
+        "気味（ぎみ）"
+      ],
+      "register": "mixed",
+      "notes": [
+        "N3에서 기초를 배웠고, N2에서는 독해 빈출 표현으로 심화한다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M100",
+      "canonical_name": "気味（ぎみ）",
+      "aliases": [
+        "~기미가 있다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "감정·상태 변화·완수",
+      "core_meaning": [
+        "약한 징후"
+      ],
+      "function_tag": [
+        "경향",
+        "징후"
+      ],
+      "formation": "동사 ます형 어간/명사 + 気味",
+      "base_form_dependency": [
+        "masu-stem",
+        "noun"
+      ],
+      "compare_with": [
+        "がち"
+      ],
+      "register": "mixed",
+      "notes": [
+        "N3에서 배웠고, N2에서는 がち와의 차이를 더 정밀하게 익힌다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M101",
+      "canonical_name": "きり / っきり",
+      "aliases": [
+        "~한 채",
+        "~뿐"
+      ],
+      "unit_type": "family",
+      "macro_category": "감정·상태 변화·완수",
+      "core_meaning": [
+        "한정",
+        "상태 지속"
+      ],
+      "function_tag": [
+        "한정",
+        "상태"
+      ],
+      "formation": "명사/동사 た형 + きり/っきり",
+      "base_form_dependency": [
+        "noun",
+        "ta-form"
+      ],
+      "compare_with": [
+        "N4: まま"
+      ],
+      "register": "mixed",
+      "notes": [
+        "N3에서 기초를 배웠고, N2에서는 상태 고정·한정의 뉘앙스를 심화한다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M102",
+      "canonical_name": "げ",
+      "aliases": [
+        "~한 듯한 기색"
+      ],
+      "unit_type": "suffix",
+      "macro_category": "감정·상태 변화·완수",
+      "core_meaning": [
+        "겉으로 드러난 기색"
+      ],
+      "function_tag": [
+        "기색",
+        "인상"
+      ],
+      "formation": "い형용사 어간/な형용사 어간 + げ",
+      "base_form_dependency": [
+        "i-adjective-stem",
+        "na-adjective-stem"
+      ],
+      "compare_with": [
+        "N4: そうだ (양태)"
+      ],
+      "register": "mixed",
+      "notes": [
+        "そうだ(양태)보다 더 주관적이고 문학적인 기색 묘사이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M103",
+      "canonical_name": "も～ば～も / も～なら～も",
+      "aliases": [
+        "~도 ~고 ~도 ~다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "감정·상태 변화·완수",
+      "core_meaning": [
+        "복수 병렬 강조"
+      ],
+      "function_tag": [
+        "병렬",
+        "강조"
+      ],
+      "formation": "명사+も+동사ば/명사+も+동사なら",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "여러 측면을 병렬로 강조한다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M104",
+      "canonical_name": "ばかりか / ばかりでなく",
+      "aliases": [
+        "~뿐만 아니라"
+      ],
+      "unit_type": "family",
+      "macro_category": "나열·추가·대비",
+      "core_meaning": [
+        "기대 범위 초과 추가"
+      ],
+      "function_tag": [
+        "추가",
+        "확장"
+      ],
+      "formation": "보통형 + ばかりか/ばかりでなく",
+      "base_form_dependency": [
+        "plain-form"
+      ],
+      "compare_with": [
+        "のみならず",
+        "はおろか"
+      ],
+      "register": "mixed",
+      "notes": [
+        "기대 범위를 넘어 더 확장된다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M105",
+      "canonical_name": "のみならず / のみか",
+      "aliases": [
+        "~뿐만 아니라"
+      ],
+      "unit_type": "family",
+      "macro_category": "나열·추가·대비",
+      "core_meaning": [
+        "문어적 추가"
+      ],
+      "function_tag": [
+        "추가",
+        "격식"
+      ],
+      "formation": "명사/보통형 + のみならず",
+      "base_form_dependency": [
+        "noun",
+        "plain-form"
+      ],
+      "compare_with": [
+        "ばかりか / ばかりでなく"
+      ],
+      "register": "written",
+      "notes": [
+        "ばかりか보다 더 문어적이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M106",
+      "canonical_name": "はもとより",
+      "aliases": [
+        "~은 물론"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "나열·추가·대비",
+      "core_meaning": [
+        "당연한 것 위에 추가"
+      ],
+      "function_tag": [
+        "추가",
+        "강조"
+      ],
+      "formation": "명사 + はもとより",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "N3: ～はもちろん"
+      ],
+      "register": "written",
+      "notes": [
+        "N3의 はもちろん의 더 문어적 형태이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M107",
+      "canonical_name": "その上",
+      "aliases": [
+        "게다가"
+      ],
+      "unit_type": "conjunction",
+      "macro_category": "나열·추가·대비",
+      "core_meaning": [
+        "정보 추가"
+      ],
+      "function_tag": [
+        "접속",
+        "추가"
+      ],
+      "formation": "문장 앞",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [
+        "おまけに",
+        "しかも"
+      ],
+      "register": "mixed",
+      "notes": [
+        "앞 정보에 같은 방향의 정보를 더한다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M108",
+      "canonical_name": "おまけに",
+      "aliases": [
+        "게다가"
+      ],
+      "unit_type": "conjunction",
+      "macro_category": "나열·추가·대비",
+      "core_meaning": [
+        "예상 밖 추가"
+      ],
+      "function_tag": [
+        "접속",
+        "추가"
+      ],
+      "formation": "문장 앞",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [
+        "その上"
+      ],
+      "register": "spoken",
+      "notes": [
+        "예상 밖의 덤이 더해지는 느낌이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M109",
+      "canonical_name": "しかも",
+      "aliases": [
+        "게다가, 더욱이"
+      ],
+      "unit_type": "conjunction",
+      "macro_category": "나열·추가·대비",
+      "core_meaning": [
+        "강조적 추가"
+      ],
+      "function_tag": [
+        "접속",
+        "강조"
+      ],
+      "formation": "문장 앞",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [
+        "その上"
+      ],
+      "register": "mixed",
+      "notes": [
+        "앞 정보를 강화하는 방향으로 추가한다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M110",
+      "canonical_name": "および",
+      "aliases": [
+        "및, 그리고"
+      ],
+      "unit_type": "conjunction",
+      "macro_category": "나열·추가·대비",
+      "core_meaning": [
+        "공식 병렬"
+      ],
+      "function_tag": [
+        "병렬",
+        "격식"
+      ],
+      "formation": "명사 + および + 명사",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [],
+      "register": "written",
+      "notes": [
+        "공문서·학술문에서 병렬할 때 쓴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M111",
+      "canonical_name": "がてら",
+      "aliases": [
+        "~하는 김에"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "나열·추가·대비",
+      "core_meaning": [
+        "겸행"
+      ],
+      "function_tag": [
+        "겸행",
+        "부가"
+      ],
+      "formation": "동사 ます형 어간/명사 + がてら",
+      "base_form_dependency": [
+        "masu-stem",
+        "noun"
+      ],
+      "compare_with": [
+        "N3: ～ついでに"
+      ],
+      "register": "mixed",
+      "notes": [
+        "ついでに보다 약간 더 격식이 있는 겸행이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M112",
+      "canonical_name": "といった",
+      "aliases": [
+        "~와 같은"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "나열·추가·대비",
+      "core_meaning": [
+        "예시 열거"
+      ],
+      "function_tag": [
+        "예시",
+        "수식"
+      ],
+      "formation": "명사 + といった + 명사",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "구체적 예를 들어 뒤 명사를 수식한다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M113",
+      "canonical_name": "～につけ",
+      "aliases": [
+        "~할 때마다",
+        "~에 따라"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "나열·추가·대비",
+      "core_meaning": [
+        "반복 연상"
+      ],
+      "function_tag": [
+        "반복",
+        "연상"
+      ],
+      "formation": "동사 사전형/명사 + につけ",
+      "base_form_dependency": [
+        "dictionary-form",
+        "noun"
+      ],
+      "compare_with": [
+        "N3: ～たびに"
+      ],
+      "register": "mixed",
+      "notes": [
+        "무언가를 할 때마다 자연스럽게 연상되는 느낌이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M114",
+      "canonical_name": "ざる",
+      "aliases": [
+        "~하지 않는"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "문어체·공적 표현",
+      "core_meaning": [
+        "문어적 부정 연체"
+      ],
+      "function_tag": [
+        "부정",
+        "문어"
+      ],
+      "formation": "동사 ない형 어간 + ざる (する→せざる)",
+      "base_form_dependency": [
+        "nai-stem"
+      ],
+      "compare_with": [
+        "ざるを得ない"
+      ],
+      "register": "written",
+      "notes": [
+        "고어 잔재로, ざるを得ない 등에서 볼 수 있다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M115",
+      "canonical_name": "ことなく",
+      "aliases": [
+        "~하지 않고"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "문어체·공적 표현",
+      "core_meaning": [
+        "문어적 부정 연결"
+      ],
+      "function_tag": [
+        "부정",
+        "연결"
+      ],
+      "formation": "동사 사전형 + ことなく",
+      "base_form_dependency": [
+        "dictionary-form"
+      ],
+      "compare_with": [
+        "N3: ずに"
+      ],
+      "register": "written",
+      "notes": [
+        "ずに보다 더 격식 높은 문어 부정 연결이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M116",
+      "canonical_name": "お / ご ～ 願う",
+      "aliases": [
+        "~해 주시기 바랍니다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "문어체·공적 표현",
+      "core_meaning": [
+        "공적 요청"
+      ],
+      "function_tag": [
+        "경어",
+        "요청"
+      ],
+      "formation": "お/ご + ます형 어간/한자어 명사 + 願う",
+      "base_form_dependency": [
+        "masu-stem",
+        "sino-japanese-noun"
+      ],
+      "compare_with": [
+        "N4: お～ください / ご～ください"
+      ],
+      "register": "written",
+      "notes": [
+        "안내문·공문에서 정중하게 요청할 때 쓴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M117",
+      "canonical_name": "たまえ",
+      "aliases": [
+        "~하게",
+        "~해라"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "문어체·공적 표현",
+      "core_meaning": [
+        "상위자의 지시"
+      ],
+      "function_tag": [
+        "명령",
+        "격식"
+      ],
+      "formation": "동사 ます형 어간 + たまえ",
+      "base_form_dependency": [
+        "masu-stem"
+      ],
+      "compare_with": [],
+      "register": "written",
+      "notes": [
+        "상위자가 하위자에게 쓰는 격식 있는 지시이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M118",
+      "canonical_name": "からなる",
+      "aliases": [
+        "~로 이루어지다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "문어체·공적 표현",
+      "core_meaning": [
+        "구성 서술"
+      ],
+      "function_tag": [
+        "구성",
+        "문어"
+      ],
+      "formation": "명사 + からなる",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [],
+      "register": "written",
+      "notes": [
+        "학술·공식 문서에서 구성을 서술할 때 쓴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M119",
+      "canonical_name": "ろくに～ない",
+      "aliases": [
+        "제대로 ~않다"
+      ],
+      "unit_type": "adverb_pattern",
+      "macro_category": "문어체·공적 표현",
+      "core_meaning": [
+        "불충분 부정"
+      ],
+      "function_tag": [
+        "부사",
+        "부정"
+      ],
+      "formation": "ろくに + 부정형",
+      "base_form_dependency": [
+        "negative-form"
+      ],
+      "compare_with": [
+        "別に～ない"
+      ],
+      "register": "mixed",
+      "notes": [
+        "충분하지 않다는 불만이 담긴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M120",
+      "canonical_name": "別に～ない",
+      "aliases": [
+        "별로 ~않다"
+      ],
+      "unit_type": "adverb_pattern",
+      "macro_category": "문어체·공적 표현",
+      "core_meaning": [
+        "관심 없음"
+      ],
+      "function_tag": [
+        "부사",
+        "부정"
+      ],
+      "formation": "別に + 부정형",
+      "base_form_dependency": [
+        "negative-form"
+      ],
+      "compare_with": [
+        "ろくに～ない"
+      ],
+      "register": "spoken",
+      "notes": [
+        "별다른 관심이나 감정이 없다는 뜻이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M121",
+      "canonical_name": "おそらく",
+      "aliases": [
+        "아마도"
+      ],
+      "unit_type": "adverb",
+      "macro_category": "부사·접속·담화 연결",
+      "core_meaning": [
+        "높은 추측"
+      ],
+      "function_tag": [
+        "부사",
+        "추측"
+      ],
+      "formation": "단독 사용",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [
+        "どうやら"
+      ],
+      "register": "mixed",
+      "notes": [
+        "확신은 높지만 단정은 피하는 추측이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M122",
+      "canonical_name": "どうやら",
+      "aliases": [
+        "아무래도"
+      ],
+      "unit_type": "adverb",
+      "macro_category": "부사·접속·담화 연결",
+      "core_meaning": [
+        "정황적 추측"
+      ],
+      "function_tag": [
+        "부사",
+        "추측"
+      ],
+      "formation": "단독 사용",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [
+        "おそらく"
+      ],
+      "register": "mixed",
+      "notes": [
+        "정황으로 보아 그런 것 같다는 느낌이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M123",
+      "canonical_name": "どうせ",
+      "aliases": [
+        "어차피"
+      ],
+      "unit_type": "adverb",
+      "macro_category": "부사·접속·담화 연결",
+      "core_meaning": [
+        "체념적 전제"
+      ],
+      "function_tag": [
+        "부사",
+        "체념"
+      ],
+      "formation": "단독 사용",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [],
+      "register": "spoken",
+      "notes": [
+        "어차피 결과가 정해져 있다는 체념이 담긴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M124",
+      "canonical_name": "いよいよ",
+      "aliases": [
+        "드디어",
+        "더욱더"
+      ],
+      "unit_type": "adverb",
+      "macro_category": "부사·접속·담화 연결",
+      "core_meaning": [
+        "최종 국면·심화"
+      ],
+      "function_tag": [
+        "부사",
+        "시간"
+      ],
+      "formation": "단독 사용",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "오래 기다린 것이 마침내 실현되거나, 정도가 더 심해진다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M125",
+      "canonical_name": "おおよそ",
+      "aliases": [
+        "대략"
+      ],
+      "unit_type": "adverb",
+      "macro_category": "부사·접속·담화 연결",
+      "core_meaning": [
+        "대략적 파악"
+      ],
+      "function_tag": [
+        "부사",
+        "근사"
+      ],
+      "formation": "단독 사용",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "대략적인 양이나 정도를 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M126",
+      "canonical_name": "せめて",
+      "aliases": [
+        "적어도"
+      ],
+      "unit_type": "adverb",
+      "macro_category": "부사·접속·담화 연결",
+      "core_meaning": [
+        "최소한의 바람"
+      ],
+      "function_tag": [
+        "부사",
+        "희망"
+      ],
+      "formation": "단독 사용",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "전체는 어렵더라도 최소한 이것만은이라는 바람이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M127",
+      "canonical_name": "たったの",
+      "aliases": [
+        "겨우, 단지"
+      ],
+      "unit_type": "adverb",
+      "macro_category": "부사·접속·담화 연결",
+      "core_meaning": [
+        "수량 축소 강조"
+      ],
+      "function_tag": [
+        "부사",
+        "축소"
+      ],
+      "formation": "たったの + 수량사",
+      "base_form_dependency": [
+        "number"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "수량이 매우 적다는 놀라움이나 강조를 담는다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M128",
+      "canonical_name": "とっくに",
+      "aliases": [
+        "벌써"
+      ],
+      "unit_type": "adverb",
+      "macro_category": "부사·접속·담화 연결",
+      "core_meaning": [
+        "이미 완료 강조"
+      ],
+      "function_tag": [
+        "부사",
+        "시간"
+      ],
+      "formation": "단독 사용",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [],
+      "register": "spoken",
+      "notes": [
+        "예상보다 훨씬 전에 이미 끝났다는 강조이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M129",
+      "canonical_name": "流石 / さすがに",
+      "aliases": [
+        "역시",
+        "과연"
+      ],
+      "unit_type": "adverb",
+      "macro_category": "부사·접속·담화 연결",
+      "core_meaning": [
+        "기대에 부합하는 평가"
+      ],
+      "function_tag": [
+        "부사",
+        "평가"
+      ],
+      "formation": "단독 사용",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "명성이나 기대에 걸맞다는 감탄이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M130",
+      "canonical_name": "何といっても",
+      "aliases": [
+        "뭐니 뭐니 해도"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "부사·접속·담화 연결",
+      "core_meaning": [
+        "최종 결론 강조"
+      ],
+      "function_tag": [
+        "강조",
+        "결론"
+      ],
+      "formation": "단독 사용",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "여러 의견이 있어도 결국 이것이라는 강조이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M131",
+      "canonical_name": "もっとも",
+      "aliases": [
+        "하긴, 그렇지만"
+      ],
+      "unit_type": "conjunction",
+      "macro_category": "부사·접속·담화 연결",
+      "core_meaning": [
+        "부분 양보 보충"
+      ],
+      "function_tag": [
+        "접속",
+        "양보"
+      ],
+      "formation": "문장 앞",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "앞 주장을 인정하되 보충·제한을 덧붙인다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M132",
+      "canonical_name": "したがって",
+      "aliases": [
+        "따라서"
+      ],
+      "unit_type": "conjunction",
+      "macro_category": "부사·접속·담화 연결",
+      "core_meaning": [
+        "논리적 귀결 접속"
+      ],
+      "function_tag": [
+        "접속",
+        "귀결"
+      ],
+      "formation": "문장 앞",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [],
+      "register": "written",
+      "notes": [
+        "문어체에서 논리적 귀결을 이끈다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M133",
+      "canonical_name": "あるいは",
+      "aliases": [
+        "또는, 혹은"
+      ],
+      "unit_type": "conjunction",
+      "macro_category": "부사·접속·담화 연결",
+      "core_meaning": [
+        "격식 선택"
+      ],
+      "function_tag": [
+        "접속",
+        "선택"
+      ],
+      "formation": "명사/절 사이",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [
+        "それとも"
+      ],
+      "register": "written",
+      "notes": [
+        "N4의 または보다 더 격식 있는 선택 표현이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M134",
+      "canonical_name": "それとも",
+      "aliases": [
+        "아니면"
+      ],
+      "unit_type": "conjunction",
+      "macro_category": "부사·접속·담화 연결",
+      "core_meaning": [
+        "의문문 선택"
+      ],
+      "function_tag": [
+        "접속",
+        "선택"
+      ],
+      "formation": "의문문 사이",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [
+        "あるいは"
+      ],
+      "register": "mixed",
+      "notes": [
+        "의문문에서 선택지를 제시할 때 쓴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M135",
+      "canonical_name": "それなら",
+      "aliases": [
+        "그렇다면"
+      ],
+      "unit_type": "conjunction",
+      "macro_category": "부사·접속·담화 연결",
+      "core_meaning": [
+        "조건 수용 후 전개"
+      ],
+      "function_tag": [
+        "접속",
+        "조건"
+      ],
+      "formation": "문장 앞",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "상대의 말을 조건으로 받아 다음을 전개한다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M136",
+      "canonical_name": "そういえば",
+      "aliases": [
+        "그러고 보니"
+      ],
+      "unit_type": "conjunction",
+      "macro_category": "부사·접속·담화 연결",
+      "core_meaning": [
+        "연상 도입"
+      ],
+      "function_tag": [
+        "접속",
+        "연상"
+      ],
+      "formation": "문장 앞",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [],
+      "register": "spoken",
+      "notes": [
+        "화제에서 떠오른 관련 내용을 꺼낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M137",
+      "canonical_name": "なお",
+      "aliases": [
+        "더욱이",
+        "여전히",
+        "덧붙여"
+      ],
+      "unit_type": "adverb",
+      "macro_category": "부사·접속·담화 연결",
+      "core_meaning": [
+        "보충·지속"
+      ],
+      "function_tag": [
+        "부사",
+        "접속"
+      ],
+      "formation": "문장 앞/중간",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [],
+      "register": "written",
+      "notes": [
+        "추가 보충이나 여전히 지속됨을 나타내는 문어 표현이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M138",
+      "canonical_name": "まだしも / Aならまだしも",
+      "aliases": [
+        "~라면 몰라도"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "부사·접속·담화 연결",
+      "core_meaning": [
+        "상대적 수용"
+      ],
+      "function_tag": [
+        "양보",
+        "비교"
+      ],
+      "formation": "명사/보통형 + ならまだしも",
+      "base_form_dependency": [
+        "noun",
+        "plain-form"
+      ],
+      "compare_with": [
+        "N3: ～ならともかく"
+      ],
+      "register": "mixed",
+      "notes": [
+        "A는 괜찮지만 B는 안 된다는 구도이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M139",
+      "canonical_name": "くらいなら / ぐらいなら",
+      "aliases": [
+        "~할 바에야 차라리"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "부사·접속·담화 연결",
+      "core_meaning": [
+        "극단적 비교 선택"
+      ],
+      "function_tag": [
+        "비교",
+        "선택"
+      ],
+      "formation": "동사 사전형 + くらいなら",
+      "base_form_dependency": [
+        "dictionary-form"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "그것보다 차라리 다른 것을 선택하겠다는 극단적 비교이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "M140",
+      "canonical_name": "ことになると / こととなると",
+      "aliases": [
+        "~에 관해서라면"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "부사·접속·담화 연결",
+      "core_meaning": [
+        "특정 주제에서 태도 변화"
+      ],
+      "function_tag": [
+        "주제",
+        "전환"
+      ],
+      "formation": "명사/동사 사전형 + こととなると",
+      "base_form_dependency": [
+        "noun",
+        "dictionary-form"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "특정 화제가 되면 태도가 달라진다."
+      ],
+      "explanation_ready": true
+    }
+  ],
+  "supplementary_entries": [],
+  "comparison_groups": [
+    {
+      "group_name": "공식 시점 비교",
+      "items": [
+        "～に際して / ～に際し",
+        "～にあたって / ～にあたり",
+        "～に先立って / ～に先立ち"
+      ],
+      "reason": "시점 자체의 무게, 준비·대비, 선행 조치의 차이를 구분해야 한다."
+    },
+    {
+      "group_name": "즉시성 비교",
+      "items": [
+        "～か～ないかのうちに",
+        "次第",
+        "～かと思うと / ～かと思ったら"
+      ],
+      "reason": "우발적 직후, 계획된 즉시 대응, 급변의 차이를 구분해야 한다."
+    },
+    {
+      "group_name": "결말 비교",
+      "items": [
+        "あげく / あげくの果てに",
+        "末に / 末の / た末"
+      ],
+      "reason": "부정적 허무감과 중립적 최종 결과의 차이가 있다."
+    },
+    {
+      "group_name": "역접·양보 비교",
+      "items": [
+        "にもかかわらず",
+        "とはいうものの / ものの",
+        "どころか",
+        "からといって"
+      ],
+      "reason": "강한 역접, 양보적 역접, 기대 역전, 이유 부정의 강도가 다르다."
+    },
+    {
+      "group_name": "판단 방향 비교",
+      "items": [
+        "に相違ない",
+        "にすぎない",
+        "にほかならない",
+        "でしかない"
+      ],
+      "reason": "강한 단정, 축소, 본질 규정, 한정의 방향이 다르다."
+    },
+    {
+      "group_name": "불가능·거절 비교",
+      "items": [
+        "得る / 得ない",
+        "かねる",
+        "かねない",
+        "っこない"
+      ],
+      "reason": "사태 가능성, 완곡 거절, 부정적 우려, 강한 불가능을 구분해야 한다."
+    },
+    {
+      "group_name": "강제·회피 비교",
+      "items": [
+        "ざるを得ない",
+        "ほかない / よりほかない",
+        "ずに済む / ないで済む",
+        "て済む / で済む"
+      ],
+      "reason": "불가피한 수행, 유일 선택, 면제, 간단 해결의 차이가 있다."
+    },
+    {
+      "group_name": "전제와 의무 비교",
+      "items": [
+        "からには / 以上(は) / 上は",
+        "ないことには",
+        "ねばならない / ねばならぬ",
+        "ざるを得ない"
+      ],
+      "reason": "전제 책임, 필수 조건, 규범 의무, 상황 불가피를 구분해야 한다."
+    },
+    {
+      "group_name": "추가 확장 비교",
+      "items": [
+        "～上に",
+        "ばかりか / ばかりでなく",
+        "のみならず",
+        "はもとより",
+        "はおろか"
+      ],
+      "reason": "이유 누적, 기대 초과, 문어적 추가, 당연한 기준 확장, 극단적 하향의 차이가 있다."
+    },
+    {
+      "group_name": "범위·예외 비교",
+      "items": [
+        "に限り / に限って / に限らず",
+        "を問わず",
+        "を除いて",
+        "抜きにして(は)"
+      ],
+      "reason": "한정, 불문 조건, 명시적 제외, 요소 생략의 차이를 구분해야 한다."
+    },
+    {
+      "group_name": "관점 설정 비교",
+      "items": [
+        "からいうと",
+        "からして",
+        "からすると / からすれば",
+        "にしたら / にすれば / にしてみれば"
+      ],
+      "reason": "관점 제시, 부분 근거, 기준 판단, 감정 이입의 차이가 있다."
+    },
+    {
+      "group_name": "양보 가정 비교",
+      "items": [
+        "にせよ / にしろ",
+        "にしても～にしても",
+        "としたって / としたところで",
+        "ものなら"
+      ],
+      "reason": "양보 인정, 양자 무관, 가정 무효화, 비현실 가정의 차이가 있다."
+    },
+    {
+      "group_name": "부정 빈도 비교",
+      "items": [
+        "ろくに～ない",
+        "別に～ない"
+      ],
+      "reason": "불충분한 부정과 무관심의 부정은 뉘앙스가 다르다."
+    },
+    {
+      "group_name": "부사적 추측 비교",
+      "items": [
+        "おそらく",
+        "どうやら",
+        "どうせ"
+      ],
+      "reason": "높은 추측, 정황 추측, 체념적 전제의 확신 정도가 다르다."
+    }
+  ]
+}
