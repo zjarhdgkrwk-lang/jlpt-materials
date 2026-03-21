@@ -1,0 +1,2588 @@
+{
+  "level": "N5",
+  "dataset_type": "study_material_generation_input",
+  "policy_note": "",
+  "macro_categories": [
+    {
+      "id": "MC01",
+      "name": "기본 서술·지시·의문",
+      "definition": "사물의 정체를 말하고, 대상을 가리키며, 기본적인 질문을 만드는 표현"
+    },
+    {
+      "id": "MC02",
+      "name": "조사와 명사 연결",
+      "definition": "주제, 주어, 목적어, 장소, 방향, 수량 범위, 명사 수식 등을 나타내는 표현"
+    },
+    {
+      "id": "MC03",
+      "name": "존재와 상태",
+      "definition": "사람·사물의 존재와 상태를 나타내는 표현"
+    },
+    {
+      "id": "MC04",
+      "name": "기본 활용과 시제",
+      "definition": "동사·형용사·명사의 기본형, 부정형, 과거형, 정중체 등 활용의 기초"
+    },
+    {
+      "id": "MC05",
+      "name": "부사와 문장 연결",
+      "definition": "빈도·시간·정도를 나타내거나 문장과 문장을 잇는 표현"
+    },
+    {
+      "id": "MC06",
+      "name": "て형과 동작 연결",
+      "definition": "て형을 바탕으로 연결, 진행, 상태, 순서를 나타내는 표현"
+    },
+    {
+      "id": "MC07",
+      "name": "요청·허가·금지·조언",
+      "definition": "상대에게 부탁하거나 허락을 구하고, 금지·조언을 말하는 표현"
+    },
+    {
+      "id": "MC08",
+      "name": "희망·경험·기호·능력",
+      "definition": "바람, 경험, 기호, 능력 등 화자 중심의 표현"
+    },
+    {
+      "id": "MC09",
+      "name": "비교·수량·정도",
+      "definition": "비교, 최상급, 수량, 대략적인 정도를 나타내는 표현"
+    },
+    {
+      "id": "MC10",
+      "name": "시간 표현과 순서",
+      "definition": "행동의 전후 관계, 특정 시점, 순차를 나타내는 표현"
+    },
+    {
+      "id": "MC11",
+      "name": "이유·설명·추측·문말 표현",
+      "definition": "이유를 말하고, 상황을 설명하고, 추측하거나 문장 끝의 태도를 나타내는 표현"
+    },
+    {
+      "id": "MC12",
+      "name": "수수 표현",
+      "definition": "주고받음의 방향과 관계를 나타내는 표현"
+    }
+  ],
+  "main_entries": [
+    {
+      "id": "E001",
+      "canonical_name": "だ / です",
+      "aliases": [
+        "지정 조동사",
+        "기본 서술어"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "기본 서술·지시·의문",
+      "core_meaning": [
+        "정체 서술",
+        "속성 단정",
+        "기본 서술"
+      ],
+      "function_tag": [
+        "서술",
+        "단정"
+      ],
+      "formation": "명사, な형용사 어간 뒤",
+      "base_form_dependency": [
+        "noun",
+        "na-adjective-stem"
+      ],
+      "compare_with": [
+        "じゃない / ではない"
+      ],
+      "register": "mixed",
+      "notes": [
+        "정중체와 보통체를 함께 익히면 좋다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E002",
+      "canonical_name": "じゃない / ではない",
+      "aliases": [
+        "～じゃありません",
+        "～ではありません"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "기본 서술·지시·의문",
+      "core_meaning": [
+        "부정 서술",
+        "대상 부정"
+      ],
+      "function_tag": [
+        "서술",
+        "부정"
+      ],
+      "formation": "명사, な형용사 어간 뒤",
+      "base_form_dependency": [
+        "noun",
+        "na-adjective-stem"
+      ],
+      "compare_with": [
+        "だ / です"
+      ],
+      "register": "mixed",
+      "notes": [
+        "구어체와 문어체의 형태 차이를 함께 익히면 좋다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E003",
+      "canonical_name": "こそあど 지시어",
+      "aliases": [
+        "これ/それ/あれ/どれ",
+        "この/その/あの/どの",
+        "ここ/そこ/あそこ/どこ"
+      ],
+      "unit_type": "lexical_set",
+      "macro_category": "기본 서술·지시·의문",
+      "core_meaning": [
+        "사물 지시",
+        "장소 지시",
+        "명사 수식",
+        "의문 지시"
+      ],
+      "function_tag": [
+        "지시",
+        "의문"
+      ],
+      "formation": "단독 사용 또는 명사 앞",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [
+        "기본 의문사"
+      ],
+      "register": "mixed",
+      "notes": [
+        "가리키는 대상과 거리 차이를 함께 익히면 좋다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E004",
+      "canonical_name": "기본 의문사",
+      "aliases": [
+        "だれ",
+        "なに",
+        "どこ",
+        "いつ",
+        "いくら",
+        "いくつ"
+      ],
+      "unit_type": "lexical_set",
+      "macro_category": "기본 서술·지시·의문",
+      "core_meaning": [
+        "인물 의문",
+        "사물 의문",
+        "장소 의문",
+        "시간 의문"
+      ],
+      "function_tag": [
+        "의문",
+        "정보 요청"
+      ],
+      "formation": "단독 사용 또는 명사 수식",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [
+        "こそあど 지시어",
+        "どんな / どうして / どうやって / どう"
+      ],
+      "register": "mixed",
+      "notes": [
+        "질문문 패턴과 함께 익히면 활용이 쉬워진다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E005",
+      "canonical_name": "か",
+      "aliases": [
+        "의문 종조사"
+      ],
+      "unit_type": "particle",
+      "macro_category": "기본 서술·지시·의문",
+      "core_meaning": [
+        "의문 표시",
+        "질문 형성"
+      ],
+      "function_tag": [
+        "의문",
+        "종조사"
+      ],
+      "formation": "문장 끝",
+      "base_form_dependency": [
+        "sentence-final-position"
+      ],
+      "compare_with": [
+        "ね / よ / よね"
+      ],
+      "register": "mixed",
+      "notes": [
+        "정중체에서는 か를 붙이고, 보통체에서는 억양으로도 질문할 수 있다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E006",
+      "canonical_name": "どんな / どうして / どうやって / どう",
+      "aliases": [
+        "성질·이유·방법 의문사"
+      ],
+      "unit_type": "lexical_set",
+      "macro_category": "기본 서술·지시·의문",
+      "core_meaning": [
+        "성질 의문",
+        "이유 의문",
+        "방법 의문",
+        "상태 의문"
+      ],
+      "function_tag": [
+        "의문",
+        "정보 요청"
+      ],
+      "formation": "단독 사용 또는 명사 수식",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [
+        "기본 의문사"
+      ],
+      "register": "mixed",
+      "notes": [
+        "어떤 종류인지, 왜인지, 어떻게 하는지를 묻는 표현이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E007",
+      "canonical_name": "は",
+      "aliases": [
+        "주제 조사"
+      ],
+      "unit_type": "particle",
+      "macro_category": "조사와 명사 연결",
+      "core_meaning": [
+        "주제 제시",
+        "대비"
+      ],
+      "function_tag": [
+        "조사",
+        "주제"
+      ],
+      "formation": "명사 뒤",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "が（주격）",
+        "も"
+      ],
+      "register": "mixed",
+      "notes": [
+        "は와 が의 차이를 비교해서 익히는 것이 중요하다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E008",
+      "canonical_name": "が（주격）",
+      "aliases": [
+        "주격 조사"
+      ],
+      "unit_type": "particle",
+      "macro_category": "조사와 명사 연결",
+      "core_meaning": [
+        "주체 표시",
+        "대상 표시"
+      ],
+      "function_tag": [
+        "조사",
+        "격 표시"
+      ],
+      "formation": "명사 뒤",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "は",
+        "が（역접）"
+      ],
+      "register": "mixed",
+      "notes": [
+        "존재·능력·기호 표현에서 が가 자주 쓰인다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E009",
+      "canonical_name": "が（역접）",
+      "aliases": [
+        "~하지만"
+      ],
+      "unit_type": "particle",
+      "macro_category": "부사와 문장 연결",
+      "core_meaning": [
+        "역접",
+        "전환"
+      ],
+      "function_tag": [
+        "접속",
+        "역접"
+      ],
+      "formation": "절 뒤",
+      "base_form_dependency": [
+        "clause"
+      ],
+      "compare_with": [
+        "けど / けれども",
+        "しかし"
+      ],
+      "register": "mixed",
+      "notes": [
+        "문장과 문장을 부드럽게 잇는 역접 표현이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E010",
+      "canonical_name": "を",
+      "aliases": [
+        "목적격 조사"
+      ],
+      "unit_type": "particle",
+      "macro_category": "조사와 명사 연결",
+      "core_meaning": [
+        "목적어 표시"
+      ],
+      "function_tag": [
+        "조사",
+        "격 표시"
+      ],
+      "formation": "명사 뒤",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "は",
+        "が（주격）"
+      ],
+      "register": "mixed",
+      "notes": [
+        "동작의 대상을 나타내는 기본 조사이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E011",
+      "canonical_name": "に",
+      "aliases": [
+        "장소 조사",
+        "시간 조사",
+        "대상 조사"
+      ],
+      "unit_type": "particle",
+      "macro_category": "조사와 명사 연결",
+      "core_meaning": [
+        "도착점",
+        "시간",
+        "대상",
+        "존재 장소"
+      ],
+      "function_tag": [
+        "조사",
+        "격 표시"
+      ],
+      "formation": "시간, 장소, 대상 명사 뒤",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "へ",
+        "に行く / に来る / に帰る"
+      ],
+      "register": "mixed",
+      "notes": [
+        "に는 용법이 다양하므로 문맥별로 익히면 좋다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E012",
+      "canonical_name": "へ",
+      "aliases": [
+        "방향 조사"
+      ],
+      "unit_type": "particle",
+      "macro_category": "조사와 명사 연결",
+      "core_meaning": [
+        "방향"
+      ],
+      "function_tag": [
+        "조사",
+        "격 표시"
+      ],
+      "formation": "장소 명사 뒤",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "に"
+      ],
+      "register": "mixed",
+      "notes": [
+        "방향성을 강조할 때 쓰인다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E013",
+      "canonical_name": "の",
+      "aliases": [
+        "소유격 조사",
+        "명사화"
+      ],
+      "unit_type": "particle",
+      "macro_category": "조사와 명사 연결",
+      "core_meaning": [
+        "소유",
+        "명사 수식",
+        "명사화"
+      ],
+      "function_tag": [
+        "수식",
+        "연결",
+        "명사화"
+      ],
+      "formation": "명사 + の + 명사 또는 절 + の",
+      "base_form_dependency": [
+        "noun",
+        "clause"
+      ],
+      "compare_with": [
+        "のが好き / のが上手 / のが下手"
+      ],
+      "register": "mixed",
+      "notes": [
+        "명사 수식과 명사화를 구분해서 익히면 좋다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E014",
+      "canonical_name": "と",
+      "aliases": [
+        "병렬 조사",
+        "인용 조사"
+      ],
+      "unit_type": "particle",
+      "macro_category": "조사와 명사 연결",
+      "core_meaning": [
+        "동반",
+        "완전 나열",
+        "인용"
+      ],
+      "function_tag": [
+        "조사",
+        "병렬",
+        "인용"
+      ],
+      "formation": "명사 사이 또는 인용절 뒤",
+      "base_form_dependency": [
+        "noun",
+        "clause"
+      ],
+      "compare_with": [
+        "や",
+        "って"
+      ],
+      "register": "mixed",
+      "notes": [
+        "'~와'의 병렬 용법과 '~라고'의 인용 용법을 함께 익히면 좋다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E015",
+      "canonical_name": "や",
+      "aliases": [
+        "부분 나열 조사"
+      ],
+      "unit_type": "particle",
+      "macro_category": "조사와 명사 연결",
+      "core_meaning": [
+        "부분 나열",
+        "예시"
+      ],
+      "function_tag": [
+        "조사",
+        "나열"
+      ],
+      "formation": "명사와 명사 사이",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "と"
+      ],
+      "register": "mixed",
+      "notes": [
+        "전부 나열하는 と와 달리 일부만 예시로 나열한다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E016",
+      "canonical_name": "も",
+      "aliases": [
+        "첨가 부조사"
+      ],
+      "unit_type": "particle",
+      "macro_category": "조사와 명사 연결",
+      "core_meaning": [
+        "첨가",
+        "강조"
+      ],
+      "function_tag": [
+        "조사",
+        "첨가"
+      ],
+      "formation": "명사 뒤",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "は",
+        "だけ"
+      ],
+      "register": "mixed",
+      "notes": [
+        "~도라는 뜻으로 대상을 추가할 때 쓴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E017",
+      "canonical_name": "だけ",
+      "aliases": [
+        "한정 부조사"
+      ],
+      "unit_type": "particle",
+      "macro_category": "조사와 명사 연결",
+      "core_meaning": [
+        "한정"
+      ],
+      "function_tag": [
+        "조사",
+        "한정"
+      ],
+      "formation": "명사 뒤",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "も"
+      ],
+      "register": "mixed",
+      "notes": [
+        "~만이라는 뜻으로 범위를 제한할 때 쓴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E018",
+      "canonical_name": "から（起点）",
+      "aliases": [
+        "~부터"
+      ],
+      "unit_type": "particle",
+      "macro_category": "조사와 명사 연결",
+      "core_meaning": [
+        "기점",
+        "출발점"
+      ],
+      "function_tag": [
+        "조사",
+        "기점"
+      ],
+      "formation": "시간/장소 명사 뒤",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "まで",
+        "から～まで"
+      ],
+      "register": "mixed",
+      "notes": [
+        "시간과 장소 모두의 시작점을 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E019",
+      "canonical_name": "まで",
+      "aliases": [
+        "~까지"
+      ],
+      "unit_type": "particle",
+      "macro_category": "조사와 명사 연결",
+      "core_meaning": [
+        "종점",
+        "한계"
+      ],
+      "function_tag": [
+        "조사",
+        "종점"
+      ],
+      "formation": "시간/장소 명사 뒤",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "から（起点）",
+        "から～まで"
+      ],
+      "register": "mixed",
+      "notes": [
+        "시간과 장소 모두의 끝점을 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E020",
+      "canonical_name": "から～まで",
+      "aliases": [
+        "기점/종점 표시"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "조사와 명사 연결",
+      "core_meaning": [
+        "범위 설정"
+      ],
+      "function_tag": [
+        "조사",
+        "범위"
+      ],
+      "formation": "시간/장소 명사 + から + 시간/장소 명사 + まで",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "から（起点）",
+        "まで"
+      ],
+      "register": "mixed",
+      "notes": [
+        "시간과 장소 모두에 쓸 수 있다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E021",
+      "canonical_name": "お / ご",
+      "aliases": [
+        "정중 접두어",
+        "美化語"
+      ],
+      "unit_type": "prefix",
+      "macro_category": "조사와 명사 연결",
+      "core_meaning": [
+        "정중",
+        "미화"
+      ],
+      "function_tag": [
+        "경어",
+        "접두어"
+      ],
+      "formation": "명사 앞 (お + 和語, ご + 漢語)",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [],
+      "register": "polite",
+      "notes": [
+        "お는 주로 일본 고유어에, ご는 한자어에 붙는다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E022",
+      "canonical_name": "たち / がた / ら",
+      "aliases": [
+        "복수 접미사"
+      ],
+      "unit_type": "suffix_set",
+      "macro_category": "조사와 명사 연결",
+      "core_meaning": [
+        "복수 표현"
+      ],
+      "function_tag": [
+        "복수",
+        "접미사"
+      ],
+      "formation": "명사(주로 사람) 뒤",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "たち는 일반, がた는 경어, ら는 구어·비격식 복수이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E023",
+      "canonical_name": "あります / がある",
+      "aliases": [
+        "무생물 존재 동사"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "존재와 상태",
+      "core_meaning": [
+        "무생물 존재",
+        "소유"
+      ],
+      "function_tag": [
+        "존재"
+      ],
+      "formation": "명사 + が + ある/あります",
+      "base_form_dependency": [
+        "noun",
+        "particle-ga"
+      ],
+      "compare_with": [
+        "います / がいる"
+      ],
+      "register": "mixed",
+      "notes": [
+        "사물이나 식물의 존재를 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E024",
+      "canonical_name": "います / がいる",
+      "aliases": [
+        "생물 존재 동사"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "존재와 상태",
+      "core_meaning": [
+        "생물 존재"
+      ],
+      "function_tag": [
+        "존재"
+      ],
+      "formation": "명사 + が + いる/います",
+      "base_form_dependency": [
+        "noun",
+        "particle-ga"
+      ],
+      "compare_with": [
+        "あります / がある"
+      ],
+      "register": "mixed",
+      "notes": [
+        "사람이나 동물의 존재를 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E025",
+      "canonical_name": "동사 활용 기본형 모음",
+      "aliases": [
+        "사전형",
+        "ない형",
+        "た형",
+        "て형",
+        "ます형"
+      ],
+      "unit_type": "family",
+      "macro_category": "기본 활용과 시제",
+      "core_meaning": [
+        "동사 기본 활용 체계"
+      ],
+      "function_tag": [
+        "활용 기반"
+      ],
+      "formation": "동사 그룹별 규칙 적용",
+      "base_form_dependency": [
+        "verb"
+      ],
+      "compare_with": [
+        "する / します"
+      ],
+      "register": "mixed",
+      "notes": [
+        "5가지 기본형이 다른 문형의 접속 기준이 된다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E026",
+      "canonical_name": "い형용사 활용",
+      "aliases": [
+        "い형용사 현재·과거·부정·과거부정"
+      ],
+      "unit_type": "family",
+      "macro_category": "기본 활용과 시제",
+      "core_meaning": [
+        "い형용사 현재",
+        "い형용사 과거",
+        "い형용사 부정",
+        "い형용사 과거부정"
+      ],
+      "function_tag": [
+        "시제",
+        "활용",
+        "부정"
+      ],
+      "formation": "い형용사 어간 기반",
+      "base_form_dependency": [
+        "i-adjective-stem"
+      ],
+      "compare_with": [
+        "な형용사 활용",
+        "いい / よい"
+      ],
+      "register": "mixed",
+      "notes": [
+        "い를 빼고 활용하는 규칙을 익히면 좋다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E027",
+      "canonical_name": "いい / よい",
+      "aliases": [
+        "좋다의 불규칙 활용"
+      ],
+      "unit_type": "irregular",
+      "macro_category": "기본 활용과 시제",
+      "core_meaning": [
+        "좋다"
+      ],
+      "function_tag": [
+        "활용",
+        "불규칙"
+      ],
+      "formation": "よかった, よくない, よくなかった",
+      "base_form_dependency": [
+        "i-adjective-stem"
+      ],
+      "compare_with": [
+        "い형용사 활용"
+      ],
+      "register": "mixed",
+      "notes": [
+        "활용할 때 いい가 아니라 よ- 어간으로 바뀐다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E028",
+      "canonical_name": "な형용사 활용",
+      "aliases": [
+        "な형용사 현재·과거·부정·과거부정"
+      ],
+      "unit_type": "family",
+      "macro_category": "기본 활용과 시제",
+      "core_meaning": [
+        "な형용사 현재",
+        "な형용사 과거",
+        "な형용사 부정",
+        "な형용사 과거부정"
+      ],
+      "function_tag": [
+        "시제",
+        "활용",
+        "부정"
+      ],
+      "formation": "な형용사 어간 + だ/だった/じゃない/じゃなかった",
+      "base_form_dependency": [
+        "na-adjective-stem"
+      ],
+      "compare_with": [
+        "い형용사 활용",
+        "だ / です"
+      ],
+      "register": "mixed",
+      "notes": [
+        "명사 서술과 활용 형태가 같다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E029",
+      "canonical_name": "する / します",
+      "aliases": [
+        "하다 동사"
+      ],
+      "unit_type": "irregular",
+      "macro_category": "기본 활용과 시제",
+      "core_meaning": [
+        "하다",
+        "동작 실행"
+      ],
+      "function_tag": [
+        "동사",
+        "불규칙"
+      ],
+      "formation": "명사 + する 또는 단독 사용",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "동사 활용 기본형 모음"
+      ],
+      "register": "mixed",
+      "notes": [
+        "불규칙 동사이며, 명사와 결합해 다양한 동작을 만든다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E030",
+      "canonical_name": "なる / になる / くなる",
+      "aliases": [
+        "상태 변화"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "기본 활용과 시제",
+      "core_meaning": [
+        "자연적 변화",
+        "상태 전환"
+      ],
+      "function_tag": [
+        "변화"
+      ],
+      "formation": "な형용사/명사 + になる, い형용사 어간 + くなる",
+      "base_form_dependency": [
+        "na-adjective-stem",
+        "noun",
+        "i-adjective-stem"
+      ],
+      "compare_with": [
+        "にする / くする"
+      ],
+      "register": "mixed",
+      "notes": [
+        "자연스럽게 변하는 것을 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E031",
+      "canonical_name": "にする / くする",
+      "aliases": [
+        "인위적 변화"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "기본 활용과 시제",
+      "core_meaning": [
+        "인위적 조작",
+        "선택"
+      ],
+      "function_tag": [
+        "조작",
+        "선택"
+      ],
+      "formation": "な형용사/명사 + にする, い형용사 어간 + くする",
+      "base_form_dependency": [
+        "na-adjective-stem",
+        "noun",
+        "i-adjective-stem"
+      ],
+      "compare_with": [
+        "なる / になる / くなる"
+      ],
+      "register": "mixed",
+      "notes": [
+        "누군가가 의도적으로 바꾸거나 선택할 때 쓴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E032",
+      "canonical_name": "あまり～ない",
+      "aliases": [
+        "별로 ~않다"
+      ],
+      "unit_type": "adverb_pattern",
+      "macro_category": "부사와 문장 연결",
+      "core_meaning": [
+        "부분 부정",
+        "정도 낮음"
+      ],
+      "function_tag": [
+        "부사",
+        "부정"
+      ],
+      "formation": "あまり + 부정형",
+      "base_form_dependency": [
+        "negative-form"
+      ],
+      "compare_with": [
+        "とても"
+      ],
+      "register": "mixed",
+      "notes": [
+        "반드시 부정형과 함께 쓴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E033",
+      "canonical_name": "いつも",
+      "aliases": [
+        "항상"
+      ],
+      "unit_type": "adverb",
+      "macro_category": "부사와 문장 연결",
+      "core_meaning": [
+        "항상",
+        "늘"
+      ],
+      "function_tag": [
+        "부사",
+        "빈도"
+      ],
+      "formation": "단독 사용",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "습관이나 반복 동작과 함께 자주 쓴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E034",
+      "canonical_name": "一緒に",
+      "aliases": [
+        "함께"
+      ],
+      "unit_type": "adverb",
+      "macro_category": "부사와 문장 연결",
+      "core_meaning": [
+        "함께",
+        "같이"
+      ],
+      "function_tag": [
+        "부사",
+        "동반"
+      ],
+      "formation": "단독 사용 또는 명사 + と + 一緒に",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "~と一緒に의 형태로 자주 쓴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E035",
+      "canonical_name": "たくさん",
+      "aliases": [
+        "많이"
+      ],
+      "unit_type": "adverb",
+      "macro_category": "부사와 문장 연결",
+      "core_meaning": [
+        "많이",
+        "다량"
+      ],
+      "function_tag": [
+        "부사",
+        "수량"
+      ],
+      "formation": "단독 사용",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "수량이 많음을 나타내는 기본 부사이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E036",
+      "canonical_name": "とても",
+      "aliases": [
+        "매우"
+      ],
+      "unit_type": "adverb",
+      "macro_category": "부사와 문장 연결",
+      "core_meaning": [
+        "매우",
+        "아주"
+      ],
+      "function_tag": [
+        "부사",
+        "정도"
+      ],
+      "formation": "형용사·부사 앞",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [
+        "あまり～ない"
+      ],
+      "register": "mixed",
+      "notes": [
+        "정도가 높음을 나타내는 기본 부사이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E037",
+      "canonical_name": "もう",
+      "aliases": [
+        "이미",
+        "이제",
+        "더"
+      ],
+      "unit_type": "adverb",
+      "macro_category": "부사와 문장 연결",
+      "core_meaning": [
+        "완료",
+        "추가"
+      ],
+      "function_tag": [
+        "부사",
+        "시간"
+      ],
+      "formation": "단독 사용",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [
+        "まだ"
+      ],
+      "register": "mixed",
+      "notes": [
+        "もう와 まだ를 대비해서 익히면 좋다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E038",
+      "canonical_name": "まだ",
+      "aliases": [
+        "아직"
+      ],
+      "unit_type": "adverb",
+      "macro_category": "부사와 문장 연결",
+      "core_meaning": [
+        "아직",
+        "미완료"
+      ],
+      "function_tag": [
+        "부사",
+        "시간"
+      ],
+      "formation": "단독 사용",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [
+        "もう",
+        "まだ～ていません"
+      ],
+      "register": "mixed",
+      "notes": [
+        "もう와 대비해서 익히면 좋다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E039",
+      "canonical_name": "しかし",
+      "aliases": [
+        "그러나"
+      ],
+      "unit_type": "conjunction",
+      "macro_category": "부사와 문장 연결",
+      "core_meaning": [
+        "역접",
+        "전환"
+      ],
+      "function_tag": [
+        "접속",
+        "역접"
+      ],
+      "formation": "문장 앞",
+      "base_form_dependency": [
+        "none"
+      ],
+      "compare_with": [
+        "が（역접）",
+        "けど / けれども"
+      ],
+      "register": "formal",
+      "notes": [
+        "문어체나 격식체에서 자주 쓰인다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E040",
+      "canonical_name": "けど / けれども",
+      "aliases": [
+        "~하지만"
+      ],
+      "unit_type": "conjunction",
+      "macro_category": "부사와 문장 연결",
+      "core_meaning": [
+        "역접",
+        "전환",
+        "전제"
+      ],
+      "function_tag": [
+        "접속",
+        "역접"
+      ],
+      "formation": "절 뒤",
+      "base_form_dependency": [
+        "clause"
+      ],
+      "compare_with": [
+        "が（역접）",
+        "しかし"
+      ],
+      "register": "mixed",
+      "notes": [
+        "けど는 구어, けれども는 격식 표현이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E041",
+      "canonical_name": "か～か",
+      "aliases": [
+        "~인가 ~인가"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "부사와 문장 연결",
+      "core_meaning": [
+        "선택 의문",
+        "양자택일"
+      ],
+      "function_tag": [
+        "의문",
+        "선택"
+      ],
+      "formation": "명사/절 + か + 명사/절 + か",
+      "base_form_dependency": [
+        "noun",
+        "clause"
+      ],
+      "compare_with": [
+        "か"
+      ],
+      "register": "mixed",
+      "notes": [
+        "두 가지 이상의 선택지를 나열할 때 쓴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E042",
+      "canonical_name": "って",
+      "aliases": [
+        "~라고 (구어 인용)"
+      ],
+      "unit_type": "particle",
+      "macro_category": "부사와 문장 연결",
+      "core_meaning": [
+        "구어 인용",
+        "전달"
+      ],
+      "function_tag": [
+        "인용",
+        "구어"
+      ],
+      "formation": "절 뒤",
+      "base_form_dependency": [
+        "clause"
+      ],
+      "compare_with": [
+        "と"
+      ],
+      "register": "spoken",
+      "notes": [
+        "と의 구어체 형태이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E043",
+      "canonical_name": "て / で",
+      "aliases": [
+        "て형 접속"
+      ],
+      "unit_type": "form",
+      "macro_category": "て형과 동작 연결",
+      "core_meaning": [
+        "동작 연결",
+        "순서",
+        "이유"
+      ],
+      "function_tag": [
+        "접속",
+        "연결"
+      ],
+      "formation": "동사 て형",
+      "base_form_dependency": [
+        "te-form"
+      ],
+      "compare_with": [
+        "てから",
+        "たり～たりする"
+      ],
+      "register": "mixed",
+      "notes": [
+        "동작을 순서대로 잇거나 이유를 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E044",
+      "canonical_name": "てから",
+      "aliases": [
+        "~하고 나서"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "て형과 동작 연결",
+      "core_meaning": [
+        "순서",
+        "선행 동작 후"
+      ],
+      "function_tag": [
+        "순서",
+        "연결"
+      ],
+      "formation": "동사 て형 + から",
+      "base_form_dependency": [
+        "te-form"
+      ],
+      "compare_with": [
+        "て / で",
+        "前に"
+      ],
+      "register": "mixed",
+      "notes": [
+        "먼저 하고 나서의 순서를 명확히 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E045",
+      "canonical_name": "ている",
+      "aliases": [
+        "~하고 있다",
+        "~해 있다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "て형과 동작 연결",
+      "core_meaning": [
+        "진행",
+        "결과 상태",
+        "습관"
+      ],
+      "function_tag": [
+        "진행",
+        "상태"
+      ],
+      "formation": "동사 て형 + いる",
+      "base_form_dependency": [
+        "te-form"
+      ],
+      "compare_with": [
+        "まだ～ていません"
+      ],
+      "register": "mixed",
+      "notes": [
+        "진행 중인 동작과 결과 상태를 구분해서 익히면 좋다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E046",
+      "canonical_name": "まだ～ていません",
+      "aliases": [
+        "아직 ~하지 않았다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "て형과 동작 연결",
+      "core_meaning": [
+        "미완료"
+      ],
+      "function_tag": [
+        "부정",
+        "미완료"
+      ],
+      "formation": "まだ + 동사 て형 + いません",
+      "base_form_dependency": [
+        "te-form"
+      ],
+      "compare_with": [
+        "ている",
+        "まだ",
+        "もう"
+      ],
+      "register": "polite",
+      "notes": [
+        "아직 끝나지 않은 상태를 나타내는 정형 표현이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E047",
+      "canonical_name": "ないで / なくて",
+      "aliases": [
+        "~하지 않고",
+        "~하지 않아서"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "て형과 동작 연결",
+      "core_meaning": [
+        "부정 연결",
+        "부정 이유"
+      ],
+      "function_tag": [
+        "부정",
+        "연결"
+      ],
+      "formation": "동사 ない형 + で 또는 なくて",
+      "base_form_dependency": [
+        "nai-form"
+      ],
+      "compare_with": [
+        "て / で"
+      ],
+      "register": "mixed",
+      "notes": [
+        "ないで는 ~하지 않고, なくて는 ~하지 않아서의 느낌이 강하다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E048",
+      "canonical_name": "たり～たりする",
+      "aliases": [
+        "~하거나 ~하거나 하다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "て형과 동작 연결",
+      "core_meaning": [
+        "동작 나열",
+        "예시적 나열"
+      ],
+      "function_tag": [
+        "나열",
+        "예시"
+      ],
+      "formation": "동사 た형 + り + 동사 た형 + り + する",
+      "base_form_dependency": [
+        "ta-form"
+      ],
+      "compare_with": [
+        "て / で",
+        "や"
+      ],
+      "register": "mixed",
+      "notes": [
+        "동작을 예시로 나열할 때 쓴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E049",
+      "canonical_name": "ください / ～をください",
+      "aliases": [
+        "주세요"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "요청·허가·금지·조언",
+      "core_meaning": [
+        "요청",
+        "물건 요구"
+      ],
+      "function_tag": [
+        "요청",
+        "대인 표현"
+      ],
+      "formation": "명사 + を + ください",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "てください / ないでください"
+      ],
+      "register": "polite",
+      "notes": [
+        "물건을 달라고 할 때 쓰는 기본 표현이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E050",
+      "canonical_name": "てください / ないでください",
+      "aliases": [
+        "~해 주세요",
+        "~하지 마세요"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "요청·허가·금지·조언",
+      "core_meaning": [
+        "행동 요청",
+        "행동 금지 요청"
+      ],
+      "function_tag": [
+        "요청",
+        "금지",
+        "대인 표현"
+      ],
+      "formation": "동사 て형 + ください / 동사 ない형 + でください",
+      "base_form_dependency": [
+        "te-form",
+        "nai-form"
+      ],
+      "compare_with": [
+        "ください / ～をください",
+        "な"
+      ],
+      "register": "polite",
+      "notes": [
+        "정중하게 부탁하거나 하지 말아 달라고 할 때 쓴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E051",
+      "canonical_name": "てもいい / てもいいですか",
+      "aliases": [
+        "~해도 된다",
+        "~해도 됩니까"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "요청·허가·금지·조언",
+      "core_meaning": [
+        "허가",
+        "허가 요청"
+      ],
+      "function_tag": [
+        "허가",
+        "대인 표현"
+      ],
+      "formation": "동사 て형 + もいい",
+      "base_form_dependency": [
+        "te-form"
+      ],
+      "compare_with": [
+        "てはいけない / てはいけません",
+        "なくてもいい"
+      ],
+      "register": "mixed",
+      "notes": [
+        "허가를 구하거나 줄 때 쓴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E052",
+      "canonical_name": "てはいけない / てはいけません",
+      "aliases": [
+        "~하면 안 된다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "요청·허가·금지·조언",
+      "core_meaning": [
+        "금지"
+      ],
+      "function_tag": [
+        "금지",
+        "규칙"
+      ],
+      "formation": "동사 て형 + はいけない/はいけません",
+      "base_form_dependency": [
+        "te-form"
+      ],
+      "compare_with": [
+        "てもいい / てもいいですか",
+        "ちゃいけない / じゃいけない",
+        "な"
+      ],
+      "register": "mixed",
+      "notes": [
+        "규칙이나 금지를 나타내는 정식 표현이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E053",
+      "canonical_name": "ちゃいけない / じゃいけない",
+      "aliases": [
+        "~하면 안 된다 (축약)"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "요청·허가·금지·조언",
+      "core_meaning": [
+        "금지 (구어)"
+      ],
+      "function_tag": [
+        "금지",
+        "구어"
+      ],
+      "formation": "동사 て형 축약 + はいけない",
+      "base_form_dependency": [
+        "te-form"
+      ],
+      "compare_with": [
+        "てはいけない / てはいけません"
+      ],
+      "register": "spoken",
+      "notes": [
+        "てはいけない의 구어 축약형이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E054",
+      "canonical_name": "たほうがいい / ないほうがいい",
+      "aliases": [
+        "~하는 편이 좋다",
+        "~하지 않는 편이 좋다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "요청·허가·금지·조언",
+      "core_meaning": [
+        "조언",
+        "권유"
+      ],
+      "function_tag": [
+        "조언",
+        "대인 표현"
+      ],
+      "formation": "동사 た형 + ほうがいい / 동사 ない형 + ほうがいい",
+      "base_form_dependency": [
+        "ta-form",
+        "nai-form"
+      ],
+      "compare_with": [
+        "てもいい / てもいいですか"
+      ],
+      "register": "mixed",
+      "notes": [
+        "긍정 조언과 부정 조언을 함께 익히면 좋다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E055",
+      "canonical_name": "なくてもいい",
+      "aliases": [
+        "~하지 않아도 된다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "요청·허가·금지·조언",
+      "core_meaning": [
+        "불필요",
+        "면제"
+      ],
+      "function_tag": [
+        "허가",
+        "면제"
+      ],
+      "formation": "동사 ない형 + くてもいい",
+      "base_form_dependency": [
+        "nai-form"
+      ],
+      "compare_with": [
+        "てもいい / てもいいですか",
+        "てはいけない / てはいけません"
+      ],
+      "register": "mixed",
+      "notes": [
+        "하지 않아도 괜찮다는 면제를 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E056",
+      "canonical_name": "な",
+      "aliases": [
+        "금지형"
+      ],
+      "unit_type": "ending",
+      "macro_category": "요청·허가·금지·조언",
+      "core_meaning": [
+        "직접 금지"
+      ],
+      "function_tag": [
+        "금지",
+        "명령"
+      ],
+      "formation": "동사 사전형 + な",
+      "base_form_dependency": [
+        "dictionary-form"
+      ],
+      "compare_with": [
+        "てはいけない / てはいけません",
+        "ないでください"
+      ],
+      "register": "plain",
+      "notes": [
+        "강한 금지를 나타내는 보통체 표현이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E057",
+      "canonical_name": "ませんか / ましょう / ましょうか",
+      "aliases": [
+        "~하지 않겠습니까",
+        "~합시다",
+        "~할까요"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "요청·허가·금지·조언",
+      "core_meaning": [
+        "권유",
+        "제안",
+        "의향 확인"
+      ],
+      "function_tag": [
+        "권유",
+        "제안",
+        "대인 표현"
+      ],
+      "formation": "동사 ます형 어간 + ませんか/ましょう/ましょうか",
+      "base_form_dependency": [
+        "masu-stem"
+      ],
+      "compare_with": [
+        "～はどうですか"
+      ],
+      "register": "polite",
+      "notes": [
+        "권유의 정중도에 따라 골라 쓸 수 있다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E058",
+      "canonical_name": "～はどうですか",
+      "aliases": [
+        "~은/는 어떻습니까"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "요청·허가·금지·조언",
+      "core_meaning": [
+        "제안",
+        "의견 요청"
+      ],
+      "function_tag": [
+        "제안",
+        "의문"
+      ],
+      "formation": "명사/동사 사전형 + のは + どうですか",
+      "base_form_dependency": [
+        "noun",
+        "dictionary-form"
+      ],
+      "compare_with": [
+        "ませんか / ましょう / ましょうか"
+      ],
+      "register": "polite",
+      "notes": [
+        "상대에게 부드럽게 제안하거나 의견을 물을 때 쓴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E059",
+      "canonical_name": "たい / たくない",
+      "aliases": [
+        "~하고 싶다",
+        "~하고 싶지 않다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "희망·경험·기호·능력",
+      "core_meaning": [
+        "희망",
+        "희망 부정"
+      ],
+      "function_tag": [
+        "희망",
+        "자기 서술"
+      ],
+      "formation": "동사 ます형 어간 + たい/たくない",
+      "base_form_dependency": [
+        "masu-stem"
+      ],
+      "compare_with": [
+        "がほしい"
+      ],
+      "register": "mixed",
+      "notes": [
+        "주로 화자 자신의 바람을 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E060",
+      "canonical_name": "がほしい",
+      "aliases": [
+        "~을 원하다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "희망·경험·기호·능력",
+      "core_meaning": [
+        "소유 희망"
+      ],
+      "function_tag": [
+        "희망",
+        "자기 서술"
+      ],
+      "formation": "명사 + が + ほしい",
+      "base_form_dependency": [
+        "noun",
+        "particle-ga"
+      ],
+      "compare_with": [
+        "たい / たくない"
+      ],
+      "register": "mixed",
+      "notes": [
+        "물건이나 대상을 원할 때 쓴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E061",
+      "canonical_name": "たことがある",
+      "aliases": [
+        "~한 적이 있다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "희망·경험·기호·능력",
+      "core_meaning": [
+        "경험"
+      ],
+      "function_tag": [
+        "경험",
+        "자기 서술"
+      ],
+      "formation": "동사 た형 + ことがある",
+      "base_form_dependency": [
+        "ta-form"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "과거의 경험 유무를 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E062",
+      "canonical_name": "好き / 嫌い",
+      "aliases": [
+        "좋아하다",
+        "싫어하다"
+      ],
+      "unit_type": "na-adjective",
+      "macro_category": "희망·경험·기호·능력",
+      "core_meaning": [
+        "기호",
+        "선호",
+        "비선호"
+      ],
+      "function_tag": [
+        "기호",
+        "감정"
+      ],
+      "formation": "명사 + が + 好き/嫌い",
+      "base_form_dependency": [
+        "noun",
+        "particle-ga"
+      ],
+      "compare_with": [
+        "のが好き / のが上手 / のが下手"
+      ],
+      "register": "mixed",
+      "notes": [
+        "な형용사이므로 な형용사 활용을 따른다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E063",
+      "canonical_name": "のが好き / のが上手 / のが下手",
+      "aliases": [
+        "~하는 것을 좋아하다",
+        "잘하다",
+        "못하다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "희망·경험·기호·능력",
+      "core_meaning": [
+        "동작 기호",
+        "동작 능숙",
+        "동작 서툼"
+      ],
+      "function_tag": [
+        "기호",
+        "능력",
+        "자기 서술"
+      ],
+      "formation": "동사 사전형 + のが + 好き/上手/下手",
+      "base_form_dependency": [
+        "dictionary-form"
+      ],
+      "compare_with": [
+        "好き / 嫌い",
+        "ができる"
+      ],
+      "register": "mixed",
+      "notes": [
+        "동작에 대한 기호와 능력을 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E064",
+      "canonical_name": "ができる",
+      "aliases": [
+        "~이 가능하다",
+        "할 수 있다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "희망·경험·기호·능력",
+      "core_meaning": [
+        "능력",
+        "가능"
+      ],
+      "function_tag": [
+        "능력",
+        "가능"
+      ],
+      "formation": "명사 + が + できる",
+      "base_form_dependency": [
+        "noun",
+        "particle-ga"
+      ],
+      "compare_with": [
+        "のが好き / のが上手 / のが下手"
+      ],
+      "register": "mixed",
+      "notes": [
+        "잘하다와 할 수 있다의 차이를 비교하면 좋다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E065",
+      "canonical_name": "方（かた）",
+      "aliases": [
+        "~하는 법",
+        "방법"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "희망·경험·기호·능력",
+      "core_meaning": [
+        "방법",
+        "하는 법"
+      ],
+      "function_tag": [
+        "방법"
+      ],
+      "formation": "동사 ます형 어간 + 方",
+      "base_form_dependency": [
+        "masu-stem"
+      ],
+      "compare_with": [],
+      "register": "mixed",
+      "notes": [
+        "동작의 방법이나 하는 법을 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E066",
+      "canonical_name": "より / ～より～のほうが",
+      "aliases": [
+        "~보다",
+        "~보다 ~쪽이 더"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "비교·수량·정도",
+      "core_meaning": [
+        "비교"
+      ],
+      "function_tag": [
+        "비교"
+      ],
+      "formation": "명사 + より + 명사 + のほうが + 형용사",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "一番 / の中で一番"
+      ],
+      "register": "mixed",
+      "notes": [
+        "둘을 비교할 때 쓴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E067",
+      "canonical_name": "一番 / の中で一番",
+      "aliases": [
+        "가장 ~하다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "비교·수량·정도",
+      "core_meaning": [
+        "최상급"
+      ],
+      "function_tag": [
+        "비교",
+        "최상급"
+      ],
+      "formation": "범위 + の中で + 一番 + 형용사",
+      "base_form_dependency": [
+        "noun"
+      ],
+      "compare_with": [
+        "より / ～より～のほうが"
+      ],
+      "register": "mixed",
+      "notes": [
+        "여러 대상 중 가장을 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E068",
+      "canonical_name": "くらい / ぐらい",
+      "aliases": [
+        "~정도",
+        "~쯤"
+      ],
+      "unit_type": "particle",
+      "macro_category": "비교·수량·정도",
+      "core_meaning": [
+        "대략적 정도",
+        "근사치"
+      ],
+      "function_tag": [
+        "정도",
+        "근사"
+      ],
+      "formation": "수량/시간 명사 뒤",
+      "base_form_dependency": [
+        "noun",
+        "number"
+      ],
+      "compare_with": [
+        "시간·수량 조수사"
+      ],
+      "register": "mixed",
+      "notes": [
+        "정확하지 않은 대략적 양을 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E069",
+      "canonical_name": "시간·수량 조수사",
+      "aliases": [
+        "~개",
+        "~명",
+        "~번",
+        "枚",
+        "本",
+        "人",
+        "匹"
+      ],
+      "unit_type": "counter_set",
+      "macro_category": "비교·수량·정도",
+      "core_meaning": [
+        "단위 세기",
+        "수량 표현"
+      ],
+      "function_tag": [
+        "수량",
+        "단위"
+      ],
+      "formation": "숫자 + 조수사",
+      "base_form_dependency": [
+        "number"
+      ],
+      "compare_with": [
+        "くらい / ぐらい"
+      ],
+      "register": "mixed",
+      "notes": [
+        "숫자와 함께 자주 쓰이는 기본 단위를 익히면 좋다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E070",
+      "canonical_name": "前に",
+      "aliases": [
+        "~하기 전에"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "시간 표현과 순서",
+      "core_meaning": [
+        "전",
+        "사전"
+      ],
+      "function_tag": [
+        "시간",
+        "순서"
+      ],
+      "formation": "동사 사전형 + 前に 또는 명사 + の + 前に",
+      "base_form_dependency": [
+        "dictionary-form",
+        "noun"
+      ],
+      "compare_with": [
+        "あとで",
+        "てから"
+      ],
+      "register": "mixed",
+      "notes": [
+        "어떤 동작 전을 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E071",
+      "canonical_name": "あとで",
+      "aliases": [
+        "나중에",
+        "~한 뒤에"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "시간 표현과 순서",
+      "core_meaning": [
+        "후",
+        "나중에"
+      ],
+      "function_tag": [
+        "시간",
+        "순서"
+      ],
+      "formation": "동사 た형 + あとで 또는 단독 사용",
+      "base_form_dependency": [
+        "ta-form"
+      ],
+      "compare_with": [
+        "前に",
+        "てから"
+      ],
+      "register": "mixed",
+      "notes": [
+        "어떤 동작 뒤를 나타낸다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E072",
+      "canonical_name": "に行く / に来る / に帰る",
+      "aliases": [
+        "~하러 가다",
+        "~하러 오다",
+        "~하러 돌아가다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "시간 표현과 순서",
+      "core_meaning": [
+        "목적 이동"
+      ],
+      "function_tag": [
+        "이동",
+        "목적"
+      ],
+      "formation": "동사 ます형 어간 + に + 行く/来る/帰る",
+      "base_form_dependency": [
+        "masu-stem"
+      ],
+      "compare_with": [
+        "に"
+      ],
+      "register": "mixed",
+      "notes": [
+        "목적을 가지고 이동하는 표현이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E073",
+      "canonical_name": "から（理由）",
+      "aliases": [
+        "~때문에",
+        "~니까"
+      ],
+      "unit_type": "conjunction",
+      "macro_category": "이유·설명·추측·문말 표현",
+      "core_meaning": [
+        "이유",
+        "원인"
+      ],
+      "function_tag": [
+        "이유"
+      ],
+      "formation": "절 + から",
+      "base_form_dependency": [
+        "clause"
+      ],
+      "compare_with": [
+        "ので"
+      ],
+      "register": "mixed",
+      "notes": [
+        "직접적인 이유를 나타낼 때 쓴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E074",
+      "canonical_name": "ので",
+      "aliases": [
+        "~이므로"
+      ],
+      "unit_type": "conjunction",
+      "macro_category": "이유·설명·추측·문말 표현",
+      "core_meaning": [
+        "이유",
+        "원인"
+      ],
+      "function_tag": [
+        "이유"
+      ],
+      "formation": "보통체 + ので (な형용사/명사는 な + ので)",
+      "base_form_dependency": [
+        "plain-form"
+      ],
+      "compare_with": [
+        "から（理由）"
+      ],
+      "register": "mixed",
+      "notes": [
+        "から보다 부드럽고 객관적인 이유 표현이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E075",
+      "canonical_name": "んです / のです / んだ",
+      "aliases": [
+        "설명",
+        "배경 제시"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "이유·설명·추측·문말 표현",
+      "core_meaning": [
+        "설명",
+        "배경 제시",
+        "강조"
+      ],
+      "function_tag": [
+        "설명",
+        "모달리티"
+      ],
+      "formation": "보통체 + んです/のです/んだ",
+      "base_form_dependency": [
+        "plain-form"
+      ],
+      "compare_with": [
+        "から（理由）",
+        "ので"
+      ],
+      "register": "mixed",
+      "notes": [
+        "상황의 배경이나 이유를 설명할 때 쓴다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E076",
+      "canonical_name": "だろう / でしょう",
+      "aliases": [
+        "~일 것이다",
+        "~겠지요"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "이유·설명·추측·문말 표현",
+      "core_meaning": [
+        "추측",
+        "확인"
+      ],
+      "function_tag": [
+        "추측",
+        "종결"
+      ],
+      "formation": "보통체 뒤",
+      "base_form_dependency": [
+        "plain-form"
+      ],
+      "compare_with": [
+        "んです / のです / んだ",
+        "ね / よ / よね"
+      ],
+      "register": "mixed",
+      "notes": [
+        "추측과 확인의 쓰임을 나누어 익히면 좋다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E077",
+      "canonical_name": "ね / よ / よね",
+      "aliases": [
+        "문말 확인·강조 표현"
+      ],
+      "unit_type": "ending",
+      "macro_category": "이유·설명·추측·문말 표현",
+      "core_meaning": [
+        "동의 요청",
+        "확인",
+        "새 정보 제공",
+        "강조"
+      ],
+      "function_tag": [
+        "종결",
+        "화자 태도"
+      ],
+      "formation": "문장 맨 끝",
+      "base_form_dependency": [
+        "sentence-final-position"
+      ],
+      "compare_with": [
+        "わ",
+        "だろう / でしょう"
+      ],
+      "register": "spoken",
+      "notes": [
+        "문장 끝의 말하는 태도를 드러내는 표현이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E078",
+      "canonical_name": "わ",
+      "aliases": [
+        "문말 어조 표현"
+      ],
+      "unit_type": "ending",
+      "macro_category": "이유·설명·추측·문말 표현",
+      "core_meaning": [
+        "부드러운 단정",
+        "감탄"
+      ],
+      "function_tag": [
+        "종결",
+        "화자 태도"
+      ],
+      "formation": "문장 맨 끝",
+      "base_form_dependency": [
+        "sentence-final-position"
+      ],
+      "compare_with": [
+        "ね / よ / よね"
+      ],
+      "register": "spoken",
+      "notes": [
+        "부드러운 어조를 더하는 문말 표현이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E079",
+      "canonical_name": "あげる",
+      "aliases": [
+        "(남에게) 주다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "수수 표현",
+      "core_meaning": [
+        "주다",
+        "상대에게 베풀다"
+      ],
+      "function_tag": [
+        "수수",
+        "방향"
+      ],
+      "formation": "명사 + を + あげる 또는 동사 て형 + あげる",
+      "base_form_dependency": [
+        "noun",
+        "te-form"
+      ],
+      "compare_with": [
+        "くれる"
+      ],
+      "register": "mixed",
+      "notes": [
+        "화자 쪽에서 상대 쪽으로 향하는 방향이다."
+      ],
+      "explanation_ready": true
+    },
+    {
+      "id": "E080",
+      "canonical_name": "くれる",
+      "aliases": [
+        "(남이 화자에게) 주다"
+      ],
+      "unit_type": "pattern",
+      "macro_category": "수수 표현",
+      "core_meaning": [
+        "화자에게 주다"
+      ],
+      "function_tag": [
+        "수수",
+        "방향"
+      ],
+      "formation": "명사 + を + くれる 또는 동사 て형 + くれる",
+      "base_form_dependency": [
+        "noun",
+        "te-form"
+      ],
+      "compare_with": [
+        "あげる"
+      ],
+      "register": "mixed",
+      "notes": [
+        "상대 쪽에서 화자 쪽으로 향하는 방향이다."
+      ],
+      "explanation_ready": true
+    }
+  ],
+  "supplementary_entries": [],
+  "comparison_groups": [
+    {
+      "group_name": "は와 が 비교",
+      "items": [
+        "は",
+        "が（주격）"
+      ],
+      "reason": "문장에서 주제와 주어를 구분하는 연습이 중요하다."
+    },
+    {
+      "group_name": "존재 표현 비교",
+      "items": [
+        "あります / がある",
+        "います / がいる"
+      ],
+      "reason": "무생물과 생물의 존재를 다르게 표현해야 한다."
+    },
+    {
+      "group_name": "이유 말하기 비교",
+      "items": [
+        "から（理由）",
+        "ので",
+        "んです / のです / んだ"
+      ],
+      "reason": "이유의 직접성과 부드러움, 설명의 느낌이 각각 다르다."
+    },
+    {
+      "group_name": "역접 표현 비교",
+      "items": [
+        "が（역접）",
+        "けど / けれども",
+        "しかし"
+      ],
+      "reason": "역접의 격식 정도와 쓰임이 다르다."
+    },
+    {
+      "group_name": "시간 순서 비교",
+      "items": [
+        "前に",
+        "あとで",
+        "てから"
+      ],
+      "reason": "전후 관계를 나타내는 방법을 함께 익히면 좋다."
+    },
+    {
+      "group_name": "허가·금지·면제 비교",
+      "items": [
+        "てもいい / てもいいですか",
+        "てはいけない / てはいけません",
+        "なくてもいい"
+      ],
+      "reason": "해도 되는지, 하면 안 되는지, 하지 않아도 되는지를 비교해서 익히면 좋다."
+    },
+    {
+      "group_name": "비교와 최상급 비교",
+      "items": [
+        "より / ～より～のほうが",
+        "一番 / の中で一番"
+      ],
+      "reason": "둘을 비교하는 표현과 여러 대상 중 가장을 말하는 표현은 구조가 다르다."
+    },
+    {
+      "group_name": "기호·능력 비교",
+      "items": [
+        "好き / 嫌い",
+        "のが好き / のが上手 / のが下手",
+        "ができる"
+      ],
+      "reason": "좋아하다, 잘하다, 할 수 있다의 차이를 함께 익히면 표현 폭이 넓어진다."
+    },
+    {
+      "group_name": "수수 방향 비교",
+      "items": [
+        "あげる",
+        "くれる"
+      ],
+      "reason": "누가 누구에게 주는지 방향을 정확히 이해해야 한다."
+    },
+    {
+      "group_name": "문말 태도 비교",
+      "items": [
+        "ね / よ / よね",
+        "わ",
+        "だろう / でしょう"
+      ],
+      "reason": "확인, 강조, 추측 등 문장 끝의 태도를 비교해서 익히면 회화가 자연스러워진다."
+    },
+    {
+      "group_name": "もう와 まだ 비교",
+      "items": [
+        "もう",
+        "まだ",
+        "まだ～ていません"
+      ],
+      "reason": "이미 완료된 것과 아직 미완료인 것을 대비해서 익히면 좋다."
+    },
+    {
+      "group_name": "명사 나열과 동작 나열 비교",
+      "items": [
+        "と",
+        "や",
+        "たり～たりする"
+      ],
+      "reason": "명사를 나열하는지, 동작을 나열하는지 구분하면 문장이 더 정확해진다."
+    }
+  ]
+}
