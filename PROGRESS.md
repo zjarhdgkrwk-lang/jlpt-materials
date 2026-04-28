@@ -1,1 +1,9 @@
 # jlpt-materials
+
+## 진행 상황
+
+- 평가 기준 생성 완료 (evaluation_criteria.md, 2026-04-28)
+
+## 다음 처리 대상
+
+- N5_상편_Ch1-6.md
